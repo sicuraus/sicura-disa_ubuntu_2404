@@ -21,7 +21,7 @@ def hiera_yaml
 
   @hiera_yaml ||= File.join(fixtures, 'hiera.yaml')
   File.open(@hiera_yaml, 'w') do |fh|
-    fh.puts <<~END
+    fh.puts <<~HIERA_YAML
       ---
       version: 5
       defaults:
@@ -32,7 +32,7 @@ def hiera_yaml
           path: common.yaml
         - name: 'Compliance Engine'
           lookup_key: compliance_engine::enforcement
-    END
+    HIERA_YAML
   end
   @hiera_yaml
 end
@@ -41,19 +41,19 @@ RSpec.configure do |c|
   c.hiera_config = hiera_yaml
 end
 
-describe 'sicura', type: :class do
+describe 'sicura', type: :class do # rubocop:disable RSpec/DescribeClass
   on_supported_os.each do |os, os_facts|
-    context "on #{os}" do
+    context "on #{os}" do # rubocop:disable RSpec/ContextWording
       compliance_data.facts = os_facts.dup.transform_keys(&:to_s)
       profiles.each_key do |profile|
         context "with compliance profile #{profile}" do
-          before(:each) do
+          before do
             File.open(File.join(datadir, 'common.yaml'), 'w') do |fh|
-              fh.puts <<~END
+              fh.puts <<~COMMON_YAML
                 ---
                 compliance_engine::enforcement:
                   - "%{facts.test_profile}"
-              END
+              COMMON_YAML
             end
           end
 
@@ -62,9 +62,9 @@ describe 'sicura', type: :class do
           let(:hiera_config) { hiera_yaml }
 
           let(:pre_condition) do
-            <<~END
+            <<~MANIFEST
               include 'sicura'
-            END
+            MANIFEST
           end
 
           it { is_expected.to compile }
