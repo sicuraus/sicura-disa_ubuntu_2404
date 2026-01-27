@@ -1,0 +1,8 @@
+---
+fixtures:
+  repositories:
+    compliance_engine: 'https://github.com/simp/rubygem-simp-compliance_engine.git'
+    sicura: 'https://github.com/sicuraus/sicura-sicura.git'
+    simplib: 'https://github.com/simp/pupmod-simp-simplib.git'
+  symlinks:
+    disa_ubuntu_2404: "#{source_dir}"
