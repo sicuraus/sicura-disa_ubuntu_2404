@@ -1,0 +1,25 @@
+{
+  "name": "sicura-disa_ubuntu_2404",
+  "version": "0.1.0",
+  "author": "sicura",
+  "summary": "DISA STIG compliance for Ubuntu 24.04",
+  "license": "AGPL-3.0",
+  "source": "https://github.com/sicuraus/sicura-disa_ubuntu_2404.git",
+  "project_page": "https://github.com/sicuraus/sicura-disa_ubuntu_2404",
+  "issues_url": "https://github.com/sicuraus/sicura-disa_ubuntu_2404/issues",
+  "dependencies": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "24.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "openvox",
+      "version_requirement": ">= 8.0.0 < 9.0.0"
+    }
+  ]
+}
