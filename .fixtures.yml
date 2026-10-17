@@ -1,6 +1,9 @@
 ---
 fixtures:
   repositories:
+    apt:
+      repo: 'https://github.com/puppetlabs/puppetlabs-apt.git'
+      ref: 'v11.4.0'
     chrony:
       repo: 'https://github.com/voxpupuli/puppet-chrony.git'
       ref: 'v5.0.0'

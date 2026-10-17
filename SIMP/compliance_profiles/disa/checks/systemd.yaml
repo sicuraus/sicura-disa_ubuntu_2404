@@ -30,3 +30,30 @@ checks:
     remediation:
       risk:
       - level: 21
+  disa:ubuntu2404-systemd:unit_files.kdump-tools.service:
+    type: puppet-class-parameter
+    settings:
+      parameter: systemd::unit_files
+      value:
+        kdump-tools.service:
+          target: "/dev/null"
+    remediation:
+      risk:
+      - level: 21
+        reason: Masks kdump-tools, disabling kernel crash dumps. Sites that need crash
+          dumps must document the need with the ISSO and leave this check unenforced.
+  disa:ubuntu2404-systemd:tmpfiles.zzz-systemd-stig.conf:
+    type: puppet-class-parameter
+    settings:
+      parameter: systemd::tmpfiles
+      value:
+        zzz-systemd-stig.conf:
+          content: |
+            z /run/log/journal 2755 root systemd-journal - -
+            Z /run/log/journal/%m ~2750 root systemd-journal - -
+            z /var/log/journal 2755 root systemd-journal - -
+            z /var/log/journal/%m 2755 root systemd-journal - -
+            z /var/log/journal/%m/system.journal 0640 root systemd-journal - -
+    remediation:
+      risk:
+      - level: 21
