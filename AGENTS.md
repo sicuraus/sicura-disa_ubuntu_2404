@@ -79,8 +79,16 @@ benchmark list in `README.md`. Map entries for CEs that DISA removed must be dro
 in `metadata.json`, and asserts that the classes and parameters the profile's Hiera data
 calls for are present in the catalog.
 
-`spec/acceptance/init_spec.rb` applies `include sicura` with each profile enforced and
-checks idempotence. It reads facts from the SUT, so profile selection matches the node.
+`spec/acceptance/init_spec.rb` applies `include sicura` with each profile enforced, checks
+idempotence, and checks that the classes the profile calls for are in the applied catalog.
+That last check matters: compliance_engine only logs an error for an unknown profile, so
+without compliance data the catalog still applies cleanly. The spec reads facts from the
+SUT, so profile selection matches the node.
+
+`spec/spec_helper_acceptance.rb` copies `SIMP/` onto the SUT after the fixture modules are
+installed. puppet-modulebuilder, which builds the fixture modules, only packages the
+standard module directories, so the installed copy of this module has no compliance data
+without that step.
 
 `rake beaker` depends on `fixtures:prep` (see `Rakefile`): fixture modules are what get
 installed on the SUT.
