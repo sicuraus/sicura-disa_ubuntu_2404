@@ -1,0 +1,22 @@
+---
+version: 2.0.0
+checks:
+  disa:ubuntu2404-chrony:class:
+    type: puppet-class-parameter
+    settings:
+      parameter: sicura::classes
+      value:
+      - chrony
+    remediation:
+      risk:
+      - level: 41
+        reason: The chrony class replaces the existing chrony configuration. Set chrony::servers
+          and/or chrony::pools to the authoritative time sources for the site.
+  disa:ubuntu2404-chrony:package_ensure:
+    type: puppet-class-parameter
+    settings:
+      parameter: chrony::package_ensure
+      value: installed
+    remediation:
+      risk:
+      - level: 21

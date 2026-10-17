@@ -1,0 +1,32 @@
+---
+version: 2.0.0
+checks:
+  disa:ubuntu2404-systemd:class:
+    type: puppet-class-parameter
+    settings:
+      parameter: sicura::classes
+      value:
+      - systemd
+    remediation:
+      risk:
+      - level: 41
+        reason: The systemd class manages systemd-journald and purges unmanaged drop-in
+          directories by default.
+  disa:ubuntu2404-systemd:timezone:
+    type: puppet-class-parameter
+    settings:
+      parameter: systemd::timezone
+      value: Etc/UTC
+    remediation:
+      risk:
+      - level: 21
+  disa:ubuntu2404-systemd:unit_files.ctrl-alt-del.target:
+    type: puppet-class-parameter
+    settings:
+      parameter: systemd::unit_files
+      value:
+        ctrl-alt-del.target:
+          target: "/dev/null"
+    remediation:
+      risk:
+      - level: 21

@@ -25,3 +25,10 @@ end
 def profiles
   compliance_data.profiles.select { |_, value| value.ces&.count&.positive? || value.controls&.count&.positive? }
 end
+
+# Mirror simplib::knockout: remove items prefixed with '--', along with the
+# items they knock out.
+def knockout(array)
+  knocked_out = array.select { |item| item.start_with?('--') }
+  array - knocked_out - knocked_out.map { |item| item.delete_prefix('--') }
+end
