@@ -1,0 +1,33 @@
+---
+version: 2.0.0
+checks:
+  disa:ubuntu2404-apt:class:
+    type: puppet-class-parameter
+    settings:
+      parameter: sicura::classes
+      value:
+      - apt
+    remediation:
+      risk:
+      - level: 41
+        reason: The apt class manages the /etc/apt directories and 15update-stamp,
+          and runs apt-get update when its configuration changes.
+  disa:ubuntu2404-apt:manage_auth_conf:
+    type: puppet-class-parameter
+    settings:
+      parameter: apt::manage_auth_conf
+      value: false
+    remediation:
+      risk:
+      - level: 1
+  disa:ubuntu2404-apt:confs.stig-allow-unauthenticated:
+    type: puppet-class-parameter
+    settings:
+      parameter: apt::confs
+      value:
+        stig-allow-unauthenticated:
+          priority: 99
+          content: APT::Get::AllowUnauthenticated "false";
+    remediation:
+      risk:
+      - level: 21

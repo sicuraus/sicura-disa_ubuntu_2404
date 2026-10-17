@@ -12,9 +12,34 @@ checks:
     ces:
     - disa:Ubuntu24.04:V-270820
     - disa:Ubuntu24.04:V-270712
+    - disa:Ubuntu24.04:V-270746
+    - disa:Ubuntu24.04:V-270757
+    - disa:Ubuntu24.04:V-270761
+    - disa:Ubuntu24.04:V-270762
+    - disa:Ubuntu24.04:V-270763
+    - disa:Ubuntu24.04:V-270764
   disa:ubuntu2404-systemd:timezone:
     ces:
     - disa:Ubuntu24.04:V-270820
   disa:ubuntu2404-systemd:unit_files.ctrl-alt-del.target:
     ces:
     - disa:Ubuntu24.04:V-270712
+  disa:ubuntu2404-apt:class:
+    ces:
+    - disa:Ubuntu24.04:V-270695
+  disa:ubuntu2404-apt:manage_auth_conf:
+    ces:
+    - disa:Ubuntu24.04:V-270695
+  disa:ubuntu2404-apt:confs.stig-allow-unauthenticated:
+    ces:
+    - disa:Ubuntu24.04:V-270695
+  disa:ubuntu2404-systemd:unit_files.kdump-tools.service:
+    ces:
+    - disa:Ubuntu24.04:V-270746
+  disa:ubuntu2404-systemd:tmpfiles.zzz-systemd-stig.conf:
+    ces:
+    - disa:Ubuntu24.04:V-270757
+    - disa:Ubuntu24.04:V-270761
+    - disa:Ubuntu24.04:V-270762
+    - disa:Ubuntu24.04:V-270763
+    - disa:Ubuntu24.04:V-270764
