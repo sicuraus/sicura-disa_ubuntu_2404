@@ -21,10 +21,10 @@ jobs:
     uses: voxpupuli/gha-puppet/.github/workflows/basic.yml@v4
 
   # voxpupuli/gha-puppet's beaker.yml generates the setfile from metadata.json
-  # with no way to override the Vagrant box, and beaker-hostgenerator's default
-  # box for Ubuntu (generic/ubuntu<release>) is unmaintained and does not exist
-  # for 24.04. Canonical no longer publishes Vagrant boxes, so use bento.
-  # Run acceptance tests here instead so the box can be set explicitly.
+  # with no way to override the Vagrant box, so run acceptance tests here
+  # instead. beaker-hostgenerator's default Ubuntu box (generic/ubuntu<release>)
+  # is unmaintained and missing for newer releases, and Canonical does not
+  # publish libvirt boxes, so use bento.
   acceptance:
     name: Acceptance - ${{ matrix.name }}
     needs: puppet
