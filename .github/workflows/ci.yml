@@ -34,14 +34,17 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - name: OpenVox 8 - Ubuntu 24.04
-            collection: openvox8
-            setfile: 'ubuntu2404-64{hostname=ubuntu2404-64-openvox8.example.com,box=bento/ubuntu-24.04}'
+          - name: OpenVox 9 - Ubuntu 24.04
+            collection: openvox9
+            ruby: '4.0'
+            openvox: '~> 9.0'
+            setfile: 'ubuntu2404-64{hostname=ubuntu2404-64-openvox9.example.com,box=bento/ubuntu-24.04}'
     env:
       BUNDLE_WITHOUT: development:release
       BEAKER_HYPERVISOR: vagrant_libvirt
       BEAKER_PUPPET_COLLECTION: ${{ matrix.collection }}
       BEAKER_SETFILE: ${{ matrix.setfile }}
+      OPENVOX_GEM_VERSION: ${{ matrix.openvox }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
       - name: Disable AppArmor
@@ -58,7 +61,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@651ff0d62c5c79bed6d53ec518387aae20e72c1a  # v1.329.0
         with:
-          ruby-version: '3.2'
+          ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
       - name: Run tests
         run: bundle exec rake beaker
