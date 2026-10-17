@@ -57,7 +57,7 @@ describe 'sicura', type: :class do # rubocop:disable RSpec/DescribeClass
             end
           end
 
-          let(:facts) { os_facts }
+          let(:facts) { os_facts.merge(test_profile: profile) }
 
           let(:hiera_config) { hiera_yaml }
 
