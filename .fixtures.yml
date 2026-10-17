@@ -1,8 +1,26 @@
 ---
 fixtures:
   repositories:
-    compliance_engine: 'https://github.com/simp/rubygem-simp-compliance_engine.git'
+    chrony:
+      repo: 'https://github.com/voxpupuli/puppet-chrony.git'
+      ref: 'v5.0.0'
+    compliance_engine:
+      repo: 'https://github.com/simp/rubygem-simp-compliance_engine.git'
+      ref: '1.1.0'
+    inifile:
+      repo: 'https://github.com/puppetlabs/puppetlabs-inifile.git'
+      ref: 'v6.5.0'
+    # sicura 2.x has not been tagged yet
     sicura: 'https://github.com/sicuraus/sicura-sicura.git'
-    simplib: 'https://github.com/simp/pupmod-simp-simplib.git'
-  symlinks:
-    disa_ubuntu_2404: "#{source_dir}"
+    simpkv:
+      repo: 'https://github.com/simp/pupmod-simp-simpkv.git'
+      ref: '1.1.0'
+    simplib:
+      repo: 'https://github.com/simp/pupmod-simp-simplib.git'
+      ref: '7.2.0'
+    stdlib:
+      repo: 'https://github.com/puppetlabs/puppetlabs-stdlib.git'
+      ref: 'v9.7.0'
+    systemd:
+      repo: 'https://github.com/voxpupuli/puppet-systemd.git'
+      ref: 'v10.3.0'

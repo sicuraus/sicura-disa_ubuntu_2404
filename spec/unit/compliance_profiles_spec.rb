@@ -37,6 +37,16 @@ def hiera_yaml
   @hiera_yaml
 end
 
+# Recursively verify that every key/value pair in +expected+ is present in
+# +actual+.  Extra keys in +actual+ are allowed at every nesting level.
+def deep_subset?(expected, actual)
+  return false unless actual.is_a?(Hash)
+
+  expected.all? do |k, v|
+    actual.key?(k) && (v.is_a?(Hash) ? deep_subset?(v, actual[k]) : actual[k] == v)
+  end
+end
+
 RSpec.configure do |c|
   c.hiera_config = hiera_yaml
 end
@@ -47,6 +57,11 @@ describe 'sicura', type: :class do # rubocop:disable RSpec/DescribeClass
       compliance_data.facts = os_facts.dup.transform_keys(&:to_s)
       profiles.each_key do |profile|
         context "with compliance profile #{profile}" do
+          compliance_data.facts = os_facts.merge(test_profile: profile).transform_keys(&:to_s)
+          compliance_hiera = compliance_data.hiera([profile])
+          class_keys = ['simp::classes', 'sicura::classes']
+          classes = knockout(class_keys.map { |key| Array(compliance_hiera[key]) }.reduce(:|))
+
           before do
             File.open(File.join(datadir, 'common.yaml'), 'w') do |fh|
               fh.puts <<~COMMON_YAML
@@ -67,7 +82,28 @@ describe 'sicura', type: :class do # rubocop:disable RSpec/DescribeClass
             MANIFEST
           end
 
-          it { is_expected.to compile }
+          it { is_expected.to compile.with_all_deps }
+
+          it 'has hiera data that loads classes' do
+            expect(classes).not_to be_empty
+          end
+
+          classes.each do |klass|
+            it { is_expected.to contain_class(klass) }
+          end
+
+          compliance_hiera.except(*class_keys).each do |key, value|
+            classname, _, parameter = key.rpartition('::')
+
+            if value.is_a?(Hash)
+              # Hash parameters may have keys merged in from other data.
+              it "sets #{key}" do
+                expect(deep_subset?(value, catalogue.resource('Class', classname)&.[](parameter.to_sym))).to be(true)
+              end
+            else
+              it { is_expected.to contain_class(classname).with(parameter => value) }
+            end
+          end
         end
       end
     end

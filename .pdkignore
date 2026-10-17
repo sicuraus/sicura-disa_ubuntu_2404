@@ -49,3 +49,7 @@ bolt-debug.log
 /.vscode/
 /.sync.yml
 /.devcontainer/
+/.scelint
+/.yamllint
+/AGENTS.md
+/CLAUDE.md

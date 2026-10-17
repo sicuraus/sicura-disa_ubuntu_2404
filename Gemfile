@@ -7,13 +7,13 @@ group :development do
 end
 
 group :syntax do
-  gem 'scelint', '~> 0.4.0', require: false
+  gem 'scelint', '~> 0.6.0', require: false
   gem 'voxpupuli-rubocop', '~> 1.3.0', require: false
 end
 
 # Used by both the unit and acceptance tests (spec/spec_helper_sce.rb)
 group :test, :system_tests do
-  gem 'compliance_engine', '~> 0.2.0', require: false
+  gem 'compliance_engine', '~> 1.1', require: false
 end
 
 group :test do
