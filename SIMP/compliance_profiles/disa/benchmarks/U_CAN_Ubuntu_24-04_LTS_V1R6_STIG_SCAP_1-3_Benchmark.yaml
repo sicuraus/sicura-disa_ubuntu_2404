@@ -6,7 +6,7 @@ profiles:
   disa:mac-1:classified:
     id: xccdf_mil.disa.stig_profile_MAC-1_Classified
     title: I - Mission Critical Classified
-    benchmark_version: '001.003'
+    benchmark_version: '001.006'
     ces:
       disa:Ubuntu24.04:V-270645: true
       disa:Ubuntu24.04:V-270646: true
@@ -173,6 +173,9 @@ profiles:
       disa:Ubuntu24.04:V-274869: true
       disa:Ubuntu24.04:V-274870: true
       disa:Ubuntu24.04:V-278917: true
+      disa:Ubuntu24.04:V-279938: true
+      disa:Ubuntu24.04:V-288818: true
+      disa:Ubuntu24.04:V-288819: true
     confine:
       os.release.major:
       - '24.04'
@@ -181,7 +184,7 @@ profiles:
   disa:mac-1:public:
     id: xccdf_mil.disa.stig_profile_MAC-1_Public
     title: I - Mission Critical Public
-    benchmark_version: '001.003'
+    benchmark_version: '001.006'
     ces:
       disa:Ubuntu24.04:V-270645: true
       disa:Ubuntu24.04:V-270646: true
@@ -348,6 +351,9 @@ profiles:
       disa:Ubuntu24.04:V-274869: true
       disa:Ubuntu24.04:V-274870: true
       disa:Ubuntu24.04:V-278917: true
+      disa:Ubuntu24.04:V-279938: true
+      disa:Ubuntu24.04:V-288818: true
+      disa:Ubuntu24.04:V-288819: true
     confine:
       os.release.major:
       - '24.04'
@@ -356,7 +362,7 @@ profiles:
   disa:mac-1:sensitive:
     id: xccdf_mil.disa.stig_profile_MAC-1_Sensitive
     title: I - Mission Critical Sensitive
-    benchmark_version: '001.003'
+    benchmark_version: '001.006'
     ces:
       disa:Ubuntu24.04:V-270645: true
       disa:Ubuntu24.04:V-270646: true
@@ -523,6 +529,9 @@ profiles:
       disa:Ubuntu24.04:V-274869: true
       disa:Ubuntu24.04:V-274870: true
       disa:Ubuntu24.04:V-278917: true
+      disa:Ubuntu24.04:V-279938: true
+      disa:Ubuntu24.04:V-288818: true
+      disa:Ubuntu24.04:V-288819: true
     confine:
       os.release.major:
       - '24.04'
@@ -531,7 +540,7 @@ profiles:
   disa:mac-2:classified:
     id: xccdf_mil.disa.stig_profile_MAC-2_Classified
     title: II - Mission Support Classified
-    benchmark_version: '001.003'
+    benchmark_version: '001.006'
     ces:
       disa:Ubuntu24.04:V-270645: true
       disa:Ubuntu24.04:V-270646: true
@@ -698,6 +707,9 @@ profiles:
       disa:Ubuntu24.04:V-274869: true
       disa:Ubuntu24.04:V-274870: true
       disa:Ubuntu24.04:V-278917: true
+      disa:Ubuntu24.04:V-279938: true
+      disa:Ubuntu24.04:V-288818: true
+      disa:Ubuntu24.04:V-288819: true
     confine:
       os.release.major:
       - '24.04'
@@ -706,7 +718,7 @@ profiles:
   disa:mac-2:public:
     id: xccdf_mil.disa.stig_profile_MAC-2_Public
     title: II - Mission Support Public
-    benchmark_version: '001.003'
+    benchmark_version: '001.006'
     ces:
       disa:Ubuntu24.04:V-270645: true
       disa:Ubuntu24.04:V-270646: true
@@ -873,6 +885,9 @@ profiles:
       disa:Ubuntu24.04:V-274869: true
       disa:Ubuntu24.04:V-274870: true
       disa:Ubuntu24.04:V-278917: true
+      disa:Ubuntu24.04:V-279938: true
+      disa:Ubuntu24.04:V-288818: true
+      disa:Ubuntu24.04:V-288819: true
     confine:
       os.release.major:
       - '24.04'
@@ -881,7 +896,7 @@ profiles:
   disa:mac-2:sensitive:
     id: xccdf_mil.disa.stig_profile_MAC-2_Sensitive
     title: II - Mission Support Sensitive
-    benchmark_version: '001.003'
+    benchmark_version: '001.006'
     ces:
       disa:Ubuntu24.04:V-270645: true
       disa:Ubuntu24.04:V-270646: true
@@ -1048,6 +1063,9 @@ profiles:
       disa:Ubuntu24.04:V-274869: true
       disa:Ubuntu24.04:V-274870: true
       disa:Ubuntu24.04:V-278917: true
+      disa:Ubuntu24.04:V-279938: true
+      disa:Ubuntu24.04:V-288818: true
+      disa:Ubuntu24.04:V-288819: true
     confine:
       os.release.major:
       - '24.04'
@@ -1056,7 +1074,7 @@ profiles:
   disa:mac-3:classified:
     id: xccdf_mil.disa.stig_profile_MAC-3_Classified
     title: III - Administrative Classified
-    benchmark_version: '001.003'
+    benchmark_version: '001.006'
     ces:
       disa:Ubuntu24.04:V-270645: true
       disa:Ubuntu24.04:V-270646: true
@@ -1223,6 +1241,9 @@ profiles:
       disa:Ubuntu24.04:V-274869: true
       disa:Ubuntu24.04:V-274870: true
       disa:Ubuntu24.04:V-278917: true
+      disa:Ubuntu24.04:V-279938: true
+      disa:Ubuntu24.04:V-288818: true
+      disa:Ubuntu24.04:V-288819: true
     confine:
       os.release.major:
       - '24.04'
@@ -1231,7 +1252,7 @@ profiles:
   disa:mac-3:public:
     id: xccdf_mil.disa.stig_profile_MAC-3_Public
     title: III - Administrative Public
-    benchmark_version: '001.003'
+    benchmark_version: '001.006'
     ces:
       disa:Ubuntu24.04:V-270645: true
       disa:Ubuntu24.04:V-270646: true
@@ -1398,6 +1419,9 @@ profiles:
       disa:Ubuntu24.04:V-274869: true
       disa:Ubuntu24.04:V-274870: true
       disa:Ubuntu24.04:V-278917: true
+      disa:Ubuntu24.04:V-279938: true
+      disa:Ubuntu24.04:V-288818: true
+      disa:Ubuntu24.04:V-288819: true
     confine:
       os.release.major:
       - '24.04'
@@ -1406,7 +1430,7 @@ profiles:
   disa:mac-3:sensitive:
     id: xccdf_mil.disa.stig_profile_MAC-3_Sensitive
     title: III - Administrative Sensitive
-    benchmark_version: '001.003'
+    benchmark_version: '001.006'
     ces:
       disa:Ubuntu24.04:V-270645: true
       disa:Ubuntu24.04:V-270646: true
@@ -1573,6 +1597,9 @@ profiles:
       disa:Ubuntu24.04:V-274869: true
       disa:Ubuntu24.04:V-274870: true
       disa:Ubuntu24.04:V-278917: true
+      disa:Ubuntu24.04:V-279938: true
+      disa:Ubuntu24.04:V-288818: true
+      disa:Ubuntu24.04:V-288819: true
     confine:
       os.release.major:
       - '24.04'
@@ -1583,7 +1610,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270645: true
+      disa:Ubuntu24.04:v001.006:V-270645: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -1622,7 +1649,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270646: true
+      disa:Ubuntu24.04:v001.006:V-270646: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -1665,7 +1692,7 @@ ce:
     controls:
       SRG-OS-000074-GPOS-00042: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270647: true
+      disa:Ubuntu24.04:v001.006:V-270647: true
       cci:CCI-000197: true
       IA-5(1): true
       NIST SP 800-53 Rev. 4 IA-5(1) (c): true
@@ -1681,12 +1708,12 @@ ce:
       nist_800_53:rev5:
       - ia-5.1_smt.c
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270647r1066430_rule
+    - xccdf_mil.disa.stig_rule_SV-270647r1261506_rule
     title: Ubuntu 24.04 LTS must not have the telnet package installed.
     description: "Remote access services, such as those providing remote access to
       network devices and information systems, which lack automated control capabilities,
       increase risk and make remote user access management difficult at best. \n \nRemote
-      access is access to DOD nonpublic information systems by an authorized user
+      access is access to DoW nonpublic information systems by an authorized user
       (or an information system) communicating through an external, nonorganization-controlled
       network. Remote access methods include, for example, dial-up, broadband, and
       wireless. \n \nUbuntu 24.04 LTS functionality (e.g., RDP) must be capable of
@@ -1707,7 +1734,7 @@ ce:
     controls:
       SRG-OS-000095-GPOS-00049: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270648: true
+      disa:Ubuntu24.04:v001.006:V-270648: true
       cci:CCI-000381: true
       CM-7: true
       NIST SP 800-53 Rev. 4 CM-7 (a): true
@@ -1749,7 +1776,7 @@ ce:
     controls:
       SRG-OS-000445-GPOS-00199: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270649: true
+      disa:Ubuntu24.04:v001.006:V-270649: true
       cci:CCI-002696: true
       SI-6: true
       NIST SP 800-53 Rev. 4 SI-6 (a): true
@@ -1791,7 +1818,7 @@ ce:
     controls:
       SRG-OS-000447-GPOS-00201: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270652: true
+      disa:Ubuntu24.04:v001.006:V-270652: true
       cci:CCI-002702: true
       SI-6: true
       cci:CCI-001744: true
@@ -1843,7 +1870,7 @@ ce:
     controls:
       SRG-OS-000269-GPOS-00103: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270653: true
+      disa:Ubuntu24.04:v001.006:V-270653: true
       cci:CCI-001665: true
       SC-24: true
       NIST SP 800-53 Rev. 4 SC-24: true
@@ -1883,7 +1910,7 @@ ce:
     controls:
       SRG-OS-000297-GPOS-00115: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270654: true
+      disa:Ubuntu24.04:v001.006:V-270654: true
       cci:CCI-002314: true
       AC-17(1): true
       NIST SP 800-53 Rev. 4 AC-17(1): true
@@ -1899,13 +1926,13 @@ ce:
       nist_800_53:rev5:
       - ac-17.1
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270654r1067143_rule
+    - xccdf_mil.disa.stig_rule_SV-270654r1261507_rule
     title: Ubuntu 24.04 LTS must have an application firewall installed in order to
       control remote access methods.
     description: "Remote access services, such as those providing remote access to
       network devices and information systems, which lack automated control capabilities,
       increase risk, and make remote user access management difficult at best. \n
-      \nRemote access is access to DOD nonpublic information systems by an authorized
+      \nRemote access is access to DoW nonpublic information systems by an authorized
       user (or an information system) communicating through an external, nonorganization-controlled
       network. Remote access methods include, for example, dial-up, broadband, and
       wireless. \n \nUbuntu 24.04 LTS functionality (e.g., RDP) must be capable of
@@ -1926,7 +1953,7 @@ ce:
     controls:
       SRG-OS-000297-GPOS-00115: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270655: true
+      disa:Ubuntu24.04:v001.006:V-270655: true
       cci:CCI-002314: true
       AC-17(1): true
       NIST SP 800-53 Rev. 4 AC-17(1): true
@@ -1942,12 +1969,12 @@ ce:
       nist_800_53:rev5:
       - ac-17.1
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270655r1067145_rule
+    - xccdf_mil.disa.stig_rule_SV-270655r1261508_rule
     title: Ubuntu 24.04 LTS must enable and run the Uncomplicated Firewall (ufw).
     description: "Remote access services, such as those providing remote access to
       network devices and information systems, which lack automated control capabilities,
       increase risk, and make remote user access management difficult at best. \n
-      \nRemote access is access to DOD nonpublic information systems by an authorized
+      \nRemote access is access to DoW nonpublic information systems by an authorized
       user (or an information system) communicating through an external, nonorganization-controlled
       network. Remote access methods include, for example, dial-up, broadband, and
       wireless. \n \nUbuntu 24.04 LTS functionality (e.g., RDP) must be capable of
@@ -1969,7 +1996,7 @@ ce:
     controls:
       SRG-OS-000365-GPOS-00152: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270656: true
+      disa:Ubuntu24.04:v001.006:V-270656: true
       cci:CCI-003938: true
       CM-5(1): true
       cci:CCI-001914: true
@@ -2120,7 +2147,7 @@ ce:
     controls:
       SRG-OS-000365-GPOS-00152: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270657: true
+      disa:Ubuntu24.04:v001.006:V-270657: true
       cci:CCI-003938: true
       CM-5(1): true
       cci:CCI-001914: true
@@ -2230,9 +2257,9 @@ ce:
       - au-7_smt.b
       - cm-5.1_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270657r1066460_rule
+    - xccdf_mil.disa.stig_rule_SV-270657r1261509_rule
     title: Ubuntu 24.04 LTS must produce audit records and reports containing information
-      to establish when, where, what type, the source, and the outcome for all DOD-defined
+      to establish when, where, what type, the source, and the outcome for all DoW-defined
       auditable events and actions in near real time.
     description: "Without establishing the when, where, type, source, and outcome
       of events that occurred, it would be difficult to establish, correlate, and
@@ -2274,7 +2301,7 @@ ce:
     controls:
       SRG-OS-000312-GPOS-00124: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270659: true
+      disa:Ubuntu24.04:v001.006:V-270659: true
       cci:CCI-002165: true
       AC-3(4): true
       cci:CCI-001764: true
@@ -2337,7 +2364,7 @@ ce:
     controls:
       SRG-OS-000368-GPOS-00154: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270660: true
+      disa:Ubuntu24.04:v001.006:V-270660: true
       cci:CCI-001764: true
       CM-7(2): true
       cci:CCI-002235: true
@@ -2402,7 +2429,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00225: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270661: true
+      disa:Ubuntu24.04:v001.006:V-270661: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -2437,7 +2464,7 @@ ce:
     controls:
       SRG-OS-000705-GPOS-00150: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270662: true
+      disa:Ubuntu24.04:v001.006:V-270662: true
       cci:CCI-004046: true
       IA-2(6): true
       cci:CCI-004047: true
@@ -2471,7 +2498,7 @@ ce:
       - ia-2.6_smt.a
       - ia-2.6_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270662r1067156_rule
+    - xccdf_mil.disa.stig_rule_SV-270662r1261510_rule
     title: Ubuntu 24.04 LTS must have the "SSSD" package installed.
     description: "Without the use of multifactor authentication, the ease of access
       to privileged functions is greatly increased. \n \nMultifactor authentication
@@ -2482,8 +2509,8 @@ ce:
       system account with authorizations of a privileged user. \n \nNetwork access
       is defined as access to an information system by a user (or a process acting
       on behalf of a user) communicating through a network (e.g., local area network,
-      wide area network, or the internet). \n \nThe DOD common access card (CAC) with
-      DOD-approved PKI is an example of multifactor authentication.\n\nSatisfies:
+      wide area network, or the internet). \n \nThe DoW common access card (CAC) with
+      DoW-approved PKI is an example of multifactor authentication.\n\nSatisfies:
       SRG-OS-000705-GPOS-00150, SRG-OS-000105-GPOS-00052, SRG-OS-000106-GPOS-00053,
       SRG-OS-000107-GPOS-00054, SRG-OS-000108-GPOS-00055, SRG-OS-000375-GPOS-00160"
     imported_data:
@@ -2499,7 +2526,7 @@ ce:
     controls:
       SRG-OS-000705-GPOS-00150: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270663: true
+      disa:Ubuntu24.04:v001.006:V-270663: true
       cci:CCI-004046: true
       IA-2(6): true
       cci:CCI-004047: true
@@ -2533,7 +2560,7 @@ ce:
       - ia-2.6_smt.a
       - ia-2.6_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270663r1066478_rule
+    - xccdf_mil.disa.stig_rule_SV-270663r1261511_rule
     title: Ubuntu 24.04 LTS must use the "SSSD" package for multifactor authentication
       services.
     description: "Without the use of multifactor authentication, the ease of access
@@ -2545,8 +2572,8 @@ ce:
       system account with authorizations of a privileged user. \n \nNetwork access
       is defined as access to an information system by a user (or a process acting
       on behalf of a user) communicating through a network (e.g., local area network,
-      wide area network, or the internet). \n \nThe DOD common access card (CAC) with
-      DOD-approved PKI is an example of multifactor authentication.\n\nSatisfies:
+      wide area network, or the internet). \n \nThe DoW common access card (CAC) with
+      DoW-approved PKI is an example of multifactor authentication.\n\nSatisfies:
       SRG-OS-000705-GPOS-00150, SRG-OS-000105-GPOS-00052, SRG-OS-000106-GPOS-00053,
       SRG-OS-000107-GPOS-00054, SRG-OS-000108-GPOS-00055, SRG-OS-000375-GPOS-00160"
     imported_data:
@@ -2562,7 +2589,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270664: true
+      disa:Ubuntu24.04:v001.006:V-270664: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -2601,7 +2628,7 @@ ce:
     controls:
       SRG-OS-000423-GPOS-00187: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270665: true
+      disa:Ubuntu24.04:v001.006:V-270665: true
       cci:CCI-002418: true
       SC-8: true
       cci:CCI-002420: true
@@ -2654,7 +2681,7 @@ ce:
     controls:
       SRG-OS-000423-GPOS-00187: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270666: true
+      disa:Ubuntu24.04:v001.006:V-270666: true
       cci:CCI-002418: true
       SC-8: true
       cci:CCI-002420: true
@@ -2709,7 +2736,7 @@ ce:
     controls:
       SRG-OS-000033-GPOS-00014: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270667: true
+      disa:Ubuntu24.04:v001.006:V-270667: true
       cci:CCI-000068: true
       AC-17(2): true
       cci:CCI-003123: true
@@ -2741,13 +2768,13 @@ ce:
       - ma-4.6
       - sc-8.1
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270667r1067107_rule
+    - xccdf_mil.disa.stig_rule_SV-270667r1261512_rule
     title: Ubuntu 24.04 LTS must configure the SSH daemon to use FIPS 140-3 approved
       ciphers to prevent the unauthorized disclosure of information and/or detect
       changes to information during transmission.
     description: "Without cryptographic integrity protections, information can be
       altered by unauthorized users without detection.  \n \nRemote access (e.g.,
-      RDP) is access to DOD nonpublic information systems by an authorized user (or
+      RDP) is access to DoW nonpublic information systems by an authorized user (or
       an information system) communicating through an external, nonorganization-controlled
       network. Remote access methods include, for example, dial-up, broadband, and
       wireless.  \n \nNonlocal maintenance and diagnostic activities are those activities
@@ -2778,7 +2805,7 @@ ce:
     controls:
       SRG-OS-000250-GPOS-00093: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270668: true
+      disa:Ubuntu24.04:v001.006:V-270668: true
       cci:CCI-001453: true
       AC-17(2): true
       cci:CCI-002890: true
@@ -2810,14 +2837,14 @@ ce:
       - ma-4.6
       - sc-8.1
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270668r1067110_rule
+    - xccdf_mil.disa.stig_rule_SV-270668r1261513_rule
     title: Ubuntu 24.04 LTS must configure the SSH daemon to use Message Authentication
       Codes (MACs) employing FIPS 140-3 approved cryptographic hashes to prevent the
       unauthorized disclosure of information and/or detect changes to information
       during transmission.
     description: "Without cryptographic integrity protections, information can be
       altered by unauthorized users without detection.  \n \nRemote access (e.g.,
-      RDP) is access to DOD nonpublic information systems by an authorized user (or
+      RDP) is access to DoW nonpublic information systems by an authorized user (or
       an information system) communicating through an external, nonorganization-controlled
       network. Remote access methods include, for example, dial-up, broadband, and
       wireless. Nonlocal maintenance and diagnostic activities are those activities
@@ -2848,7 +2875,7 @@ ce:
     controls:
       SRG-OS-000033-GPOS-00014: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270669: true
+      disa:Ubuntu24.04:v001.006:V-270669: true
       cci:CCI-000068: true
       AC-17(2): true
       NIST SP 800-53 Rev. 4 AC-17(2): true
@@ -2889,7 +2916,7 @@ ce:
     controls:
       SRG-OS-000250-GPOS-00093: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270670: true
+      disa:Ubuntu24.04:v001.006:V-270670: true
       cci:CCI-001453: true
       AC-17(2): true
       NIST SP 800-53 Rev. 4 AC-17(2): true
@@ -2905,13 +2932,13 @@ ce:
       nist_800_53:rev5:
       - ac-17.2
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270670r1067115_rule
+    - xccdf_mil.disa.stig_rule_SV-270670r1261514_rule
     title: Ubuntu 24.04 LTS must configure the SSH client to use FIPS 140-3 approved
       ciphers to prevent the unauthorized disclosure of information and/or detect
       changes to information during transmission.
     description: "Without cryptographic integrity protections, information can be
       altered by unauthorized users without detection.  \n \nRemote access (e.g.,
-      RDP) is access to DOD nonpublic information systems by an authorized user (or
+      RDP) is access to DoW nonpublic information systems by an authorized user (or
       an information system) communicating through an external, nonorganization-controlled
       network. Remote access methods include, for example, dial-up, broadband, and
       wireless.  \n \nNonlocal maintenance and diagnostic activities are those activities
@@ -2944,7 +2971,7 @@ ce:
     controls:
       SRG-OS-000250-GPOS-00093: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270671: true
+      disa:Ubuntu24.04:v001.006:V-270671: true
       cci:CCI-001453: true
       AC-17(2): true
       NIST SP 800-53 Rev. 4 AC-17(2): true
@@ -2960,12 +2987,12 @@ ce:
       nist_800_53:rev5:
       - ac-17.2
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270671r1155244_rule
+    - xccdf_mil.disa.stig_rule_SV-270671r1261515_rule
     title: Ubuntu 24.04 LTS SSH client must be configured to use only Message Authentication
       Codes (MACs) employing FIPS 140-3 validated cryptographic hash algorithms.
     description: "Without cryptographic integrity protections, information can be
       altered by unauthorized users without detection.  \n \nRemote access (e.g.,
-      RDP) is access to DOD nonpublic information systems by an authorized user (or
+      RDP) is access to DoW nonpublic information systems by an authorized user (or
       an information system) communicating through an external, nonorganization-controlled
       network. Remote access methods include, for example, dial-up, broadband, and
       wireless. Nonlocal maintenance and diagnostic activities are those activities
@@ -2996,7 +3023,7 @@ ce:
     controls:
       SRG-OS-000376-GPOS-00161: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270672: true
+      disa:Ubuntu24.04:v001.006:V-270672: true
       cci:CCI-001953: true
       IA-2(12): true
       NIST SP 800-53 Rev. 4 IA-2(12): true
@@ -3012,10 +3039,10 @@ ce:
       nist_800_53:rev5:
       - ia-2.12
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270672r1067161_rule
+    - xccdf_mil.disa.stig_rule_SV-270672r1261516_rule
     title: Ubuntu 24.04 LTS must accept Personal Identity Verification (PIV) credentials.
     description: "The use of PIV credentials facilitates standardization and reduces
-      the risk of unauthorized access. \n \nDOD has mandated the use of the common
+      the risk of unauthorized access. \n \nDoW has mandated the use of the common
       access card (CAC) to support identity management and personal authentication
       for systems covered under Homeland Security Presidential Directive (HSPD) 12,
       as well as making the CAC a primary component of layered protection for national
@@ -3033,7 +3060,7 @@ ce:
     controls:
       SRG-OS-000376-GPOS-00161: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270673: true
+      disa:Ubuntu24.04:v001.006:V-270673: true
       cci:CCI-001953: true
       IA-2(12): true
       NIST SP 800-53 Rev. 4 IA-2(12): true
@@ -3049,11 +3076,11 @@ ce:
       nist_800_53:rev5:
       - ia-2.12
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270673r1067164_rule
+    - xccdf_mil.disa.stig_rule_SV-270673r1261517_rule
     title: Ubuntu 24.04 LTS must accept Personal Identity Verification (PIV) credentials
-      managed through the Privileged Access Management (PAM) framework.
+      managed through the Privileged Access Management (PAM)  framework.
     description: "The use of PIV credentials facilitates standardization and reduces
-      the risk of unauthorized access. \n \nDOD has mandated the use of the common
+      the risk of unauthorized access. \n \nDoW has mandated the use of the common
       access card (CAC) to support identity management and personal authentication
       for systems covered under Homeland Security Presidential Directive (HSPD) 12,
       as well as making the CAC a primary component of layered protection for national
@@ -3071,7 +3098,7 @@ ce:
     controls:
       SRG-OS-000031-GPOS-00012: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270674: true
+      disa:Ubuntu24.04:v001.006:V-270674: true
       cci:CCI-000060: true
       AC-11(1): true
       cci:CCI-000057: true
@@ -3119,7 +3146,7 @@ ce:
     controls:
       SRG-OS-000080-GPOS-00048: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270675: true
+      disa:Ubuntu24.04:v001.006:V-270675: true
       cci:CCI-000213: true
       AC-3: true
       NIST SP 800-53 Rev. 4 AC-3: true
@@ -3135,11 +3162,11 @@ ce:
       nist_800_53:rev5:
       - ac-3
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270675r1137691_rule
+    - xccdf_mil.disa.stig_rule_SV-270675r1261518_rule
     title: Ubuntu 24.04 LTS when booted must require authentication upon booting into
       single-user and maintenance modes.
     description: "To mitigate the risk of unauthorized access to sensitive information
-      by entities that have been issued certificates by DOD-approved PKIs, all DOD
+      by entities that have been issued certificates by DoW-approved PKIs, all DoW
       systems (e.g., web servers and web portals) must be properly configured to incorporate
       access control methods that do not rely solely on the possession of a certificate
       for access.  \n \nSuccessful authentication must not automatically give an entity
@@ -3174,7 +3201,7 @@ ce:
     controls:
       SRG-OS-000254-GPOS-00095: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270676: true
+      disa:Ubuntu24.04:v001.006:V-270676: true
       cci:CCI-001464: true
       AU-14(1): true
       NIST SP 800-53 Rev. 4 AU-14(1): true
@@ -3210,7 +3237,7 @@ ce:
     controls:
       SRG-OS-000027-GPOS-00008: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270677: true
+      disa:Ubuntu24.04:v001.006:V-270677: true
       cci:CCI-000054: true
       AC-10: true
       NIST SP 800-53 Rev. 4 AC-10: true
@@ -3251,7 +3278,7 @@ ce:
     controls:
       SRG-OS-000279-GPOS-00109: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270680: true
+      disa:Ubuntu24.04:v001.006:V-270680: true
       cci:CCI-002361: true
       AC-12: true
       NIST SP 800-53 Rev. 4 AC-12: true
@@ -3302,7 +3329,7 @@ ce:
     controls:
       SRG-OS-000032-GPOS-00013: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270681: true
+      disa:Ubuntu24.04:v001.006:V-270681: true
       cci:CCI-000067: true
       AC-17(1): true
       NIST SP 800-53 Rev. 4 AC-17(1): true
@@ -3318,12 +3345,12 @@ ce:
       nist_800_53:rev5:
       - ac-17.1
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270681r1134806_rule
+    - xccdf_mil.disa.stig_rule_SV-270681r1261519_rule
     title: Ubuntu 24.04 LTS must monitor remote access methods.
     description: "Remote access services, such as those providing remote access to
       network devices and information systems, which lack automated monitoring capabilities,
       increase risk, and make remote user access management difficult at best. \n
-      \nRemote access is access to DOD nonpublic information systems by an authorized
+      \nRemote access is access to DoW nonpublic information systems by an authorized
       user (or an information system) communicating through an external, nonorganization-controlled
       network. Remote access methods include, for example, dial-up, broadband, and
       wireless. \n \nAutomated monitoring of remote access sessions allows organizations
@@ -3346,7 +3373,7 @@ ce:
     controls:
       SRG-OS-000118-GPOS-00060: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270683: true
+      disa:Ubuntu24.04:v001.006:V-270683: true
       cci:CCI-003627: true
       AC-2(3): true
       cci:CCI-003628: true
@@ -3363,7 +3390,7 @@ ce:
       - ac-2.3_smt.a
       - ac-2.3_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270683r1066538_rule
+    - xccdf_mil.disa.stig_rule_SV-270683r1261521_rule
     title: Ubuntu 24.04 LTS must disable account identifiers (individuals, groups,
       roles, and devices) after 35 days of inactivity.
     description: "Inactive identifiers pose a risk to systems and applications because
@@ -3376,7 +3403,7 @@ ce:
       fixtext: "Configure Ubuntu 24.04 LTS to disable account identifiers after 35
         days of inactivity after the password expiration.  \n \nRun the following
         command to change the configuration for adduser: \n \n$ sudo useradd -D -f
-        35 \n \nNote: DOD recommendation is 35 days, but a lower value is acceptable.
+        35 \n \nNote: DoW recommendation is 35 days, but a lower value is acceptable.
         The value \"0\" will disable the account immediately after the password expires."
     confine:
       os.release.major:
@@ -3387,7 +3414,7 @@ ce:
     controls:
       SRG-OS-000004-GPOS-00004: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270684: true
+      disa:Ubuntu24.04:v001.006:V-270684: true
       cci:CCI-000018: true
       AC-2(4): true
       cci:CCI-001403: true
@@ -3446,7 +3473,7 @@ ce:
     controls:
       SRG-OS-000004-GPOS-00004: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270685: true
+      disa:Ubuntu24.04:v001.006:V-270685: true
       cci:CCI-000018: true
       AC-2(4): true
       cci:CCI-001403: true
@@ -3505,7 +3532,7 @@ ce:
     controls:
       SRG-OS-000004-GPOS-00004: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270686: true
+      disa:Ubuntu24.04:v001.006:V-270686: true
       cci:CCI-000018: true
       AC-2(4): true
       cci:CCI-001403: true
@@ -3564,7 +3591,7 @@ ce:
     controls:
       SRG-OS-000004-GPOS-00004: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270687: true
+      disa:Ubuntu24.04:v001.006:V-270687: true
       cci:CCI-000018: true
       AC-2(4): true
       cci:CCI-001403: true
@@ -3623,7 +3650,7 @@ ce:
     controls:
       SRG-OS-000004-GPOS-00004: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270688: true
+      disa:Ubuntu24.04:v001.006:V-270688: true
       cci:CCI-000018: true
       AC-2(4): true
       cci:CCI-001403: true
@@ -3682,7 +3709,7 @@ ce:
     controls:
       SRG-OS-000326-GPOS-00126: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270689: true
+      disa:Ubuntu24.04:v001.006:V-270689: true
       cci:CCI-002233: true
       AC-6(8): true
       cci:CCI-002234: true
@@ -3743,7 +3770,7 @@ ce:
     controls:
       SRG-OS-000021-GPOS-00005: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270690: true
+      disa:Ubuntu24.04:v001.006:V-270690: true
       cci:CCI-000044: true
       AC-7: true
       cci:CCI-002238: true
@@ -3790,7 +3817,7 @@ ce:
     controls:
       SRG-OS-000023-GPOS-00006: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270692: true
+      disa:Ubuntu24.04:v001.006:V-270692: true
       cci:CCI-000048: true
       AC-8: true
       NIST SP 800-53 Rev. 4 AC-8 (a): true
@@ -3806,9 +3833,9 @@ ce:
       nist_800_53:rev5:
       - ac-8_smt.a
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270692r1066565_rule
+    - xccdf_mil.disa.stig_rule_SV-270692r1261527_rule
     title: Ubuntu 24.04 LTS must enable the graphical user logon banner to display
-      the Standard Mandatory DOD Notice and Consent Banner before granting local access
+      the Standard Mandatory DoW Notice and Consent Banner before granting local access
       to the system via a graphical user logon.
     description: "Display of a standardized and approved use notification before granting
       access to Ubuntu 24.04 LTS ensures privacy and security notification verbiage
@@ -3816,7 +3843,7 @@ ce:
       policies, regulations, standards, and guidance. \n \nSystem use notifications
       are required only for access via logon interfaces with human users and are not
       required when such human interfaces do not exist. \n \nThe banner must be formatted
-      in accordance with applicable DOD policy. Use the following verbiage for operating
+      in accordance with applicable DoW policy. Use the following verbiage for operating
       systems that can accommodate banners of 1300 characters: \n \n\"You are accessing
       a U.S. Government (USG) Information System (IS) that is provided for USG-authorized
       use only. \n \nBy using this IS (which includes any device attached to this
@@ -3839,7 +3866,7 @@ ce:
       displayed in the banner: \n \n\"I've read (literal ampersand) consent to terms
       in IS user agreem't.\""
     imported_data:
-      fixtext: "Configure Ubuntu 24.04 LTS to display the Standard Mandatory DOD Notice
+      fixtext: "Configure Ubuntu 24.04 LTS to display the Standard Mandatory DoW Notice
         and Consent Banner before granting access to Ubuntu 24.04 LTS via a graphical
         user logon.\n\nEdit the \"/etc/gdm3/greeter.dconf-defaults\" file. \n \nLook
         for the \"banner-message-enable\" parameter under the \"[org/gnome/login-screen]\"
@@ -3855,7 +3882,7 @@ ce:
     controls:
       SRG-OS-000366-GPOS-00153: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270695: true
+      disa:Ubuntu24.04:v001.006:V-270695: true
       cci:CCI-003992: true
       CM-14: true
       NIST SP 800-53 Rev. 5 CM-14: true
@@ -3868,7 +3895,7 @@ ce:
       nist_800_53:rev5:
       - cm-14
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270695r1066574_rule
+    - xccdf_mil.disa.stig_rule_SV-270695r1261531_rule
     title: Ubuntu 24.04 LTS Advance Package Tool (APT) must be configured to prevent
       the installation of patches, service packs, device drivers, or Ubuntu 24.04
       LTS components without verification they have been digitally signed using a
@@ -3883,7 +3910,7 @@ ce:
       ensures the software has not been tampered with and that it has been provided
       by a trusted vendor. Self-signed certificates are disallowed by this requirement.
       Ubuntu 24.04 LTS will not have to verify the software again. This requirement
-      does not mandate DOD certificates for this purpose; however, the certificate
+      does not mandate DoW certificates for this purpose; however, the certificate
       used to verify the software must be from an approved CA."
     imported_data:
       fixtext: "Configure APT to prevent the installation of patches, service packs,
@@ -3902,7 +3929,7 @@ ce:
     controls:
       SRG-OS-000259-GPOS-00100: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270696: true
+      disa:Ubuntu24.04:v001.006:V-270696: true
       cci:CCI-001499: true
       CM-5(6): true
       NIST SP 800-53 Rev. 4 CM-5(6): true
@@ -3943,7 +3970,7 @@ ce:
     controls:
       SRG-OS-000259-GPOS-00100: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270697: true
+      disa:Ubuntu24.04:v001.006:V-270697: true
       cci:CCI-001499: true
       CM-5(6): true
       NIST SP 800-53 Rev. 4 CM-5(6): true
@@ -3984,7 +4011,7 @@ ce:
     controls:
       SRG-OS-000259-GPOS-00100: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270698: true
+      disa:Ubuntu24.04:v001.006:V-270698: true
       cci:CCI-001499: true
       CM-5(6): true
       NIST SP 800-53 Rev. 4 CM-5(6): true
@@ -4025,7 +4052,7 @@ ce:
     controls:
       SRG-OS-000259-GPOS-00100: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270699: true
+      disa:Ubuntu24.04:v001.006:V-270699: true
       cci:CCI-001499: true
       CM-5(6): true
       NIST SP 800-53 Rev. 4 CM-5(6): true
@@ -4067,7 +4094,7 @@ ce:
     controls:
       SRG-OS-000259-GPOS-00100: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270700: true
+      disa:Ubuntu24.04:v001.006:V-270700: true
       cci:CCI-001499: true
       CM-5(6): true
       NIST SP 800-53 Rev. 4 CM-5(6): true
@@ -4107,7 +4134,7 @@ ce:
     controls:
       SRG-OS-000259-GPOS-00100: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270701: true
+      disa:Ubuntu24.04:v001.006:V-270701: true
       cci:CCI-001499: true
       CM-5(6): true
       NIST SP 800-53 Rev. 4 CM-5(6): true
@@ -4148,7 +4175,7 @@ ce:
     controls:
       SRG-OS-000259-GPOS-00100: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270702: true
+      disa:Ubuntu24.04:v001.006:V-270702: true
       cci:CCI-001499: true
       CM-5(6): true
       NIST SP 800-53 Rev. 4 CM-5(6): true
@@ -4189,7 +4216,7 @@ ce:
     controls:
       SRG-OS-000259-GPOS-00100: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270703: true
+      disa:Ubuntu24.04:v001.006:V-270703: true
       cci:CCI-001499: true
       CM-5(6): true
       NIST SP 800-53 Rev. 4 CM-5(6): true
@@ -4231,7 +4258,7 @@ ce:
     controls:
       SRG-OS-000710-GPOS-00160: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270704: true
+      disa:Ubuntu24.04:v001.006:V-270704: true
       cci:CCI-004061: true
       IA-5(1): true
       NIST SP 800-53 Rev. 5 IA-5(1) (b): true
@@ -4272,7 +4299,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00225: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270705: true
+      disa:Ubuntu24.04:v001.006:V-270705: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4312,7 +4339,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00226: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270706: true
+      disa:Ubuntu24.04:v001.006:V-270706: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4349,7 +4376,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270707: true
+      disa:Ubuntu24.04:v001.006:V-270707: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4384,7 +4411,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270708: true
+      disa:Ubuntu24.04:v001.006:V-270708: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4400,7 +4427,7 @@ ce:
       nist_800_53:rev5:
       - cm-6_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270708r1066613_rule
+    - xccdf_mil.disa.stig_rule_SV-270708r1208697_rule
     title: Ubuntu 24.04 LTS must be configured so that remote X connections are disabled,
       unless to fulfill documented and validated mission requirements.
     description: "The security risk of using X11 forwarding is that the client's X11
@@ -4419,8 +4446,7 @@ ce:
         for the \"X11Forwarding\" keyword and set its value to \"no\" (this file may
         be named differently or be in a different location if using a version of SSH
         that is provided by a third-party vendor): \n \nX11Forwarding no \n \nRestart
-        the SSH daemon for the changes to take effect: \n \n$ sudo systemctl restart
-        sshd.service"
+        SSH for the changes to take effect: \n\n$ sudo systemctl restart ssh"
     confine:
       os.release.major:
       - '24.04'
@@ -4430,7 +4456,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270709: true
+      disa:Ubuntu24.04:v001.006:V-270709: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4446,7 +4472,7 @@ ce:
       nist_800_53:rev5:
       - cm-6_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270709r1066616_rule
+    - xccdf_mil.disa.stig_rule_SV-270709r1208698_rule
     title: Ubuntu 24.04 LTS SSH daemon must prevent remote hosts from connecting to
       the proxy display.
     description: When X11 forwarding is enabled, there may be additional exposure
@@ -4461,8 +4487,8 @@ ce:
         or add the line for the \"X11UseLocalhost\" keyword and set its value to \"yes\"
         (this file may be named differently or be in a different location if using
         a version of SSH that is provided by a third-party vendor): \n \nX11UseLocalhost
-        yes \n \nRestart the SSH daemon for the changes to take effect: \n \n$ sudo
-        systemctl restart sshd.service"
+        yes \n \nRestart SSH for the changes to take effect: \n\n$ sudo systemctl
+        restart ssh"
     confine:
       os.release.major:
       - '24.04'
@@ -4472,7 +4498,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270712: true
+      disa:Ubuntu24.04:v001.006:V-270712: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4508,7 +4534,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270713: true
+      disa:Ubuntu24.04:v001.006:V-270713: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4547,7 +4573,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270714: true
+      disa:Ubuntu24.04:v001.006:V-270714: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4563,7 +4589,7 @@ ce:
       nist_800_53:rev5:
       - cm-6_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270714r1134808_rule
+    - xccdf_mil.disa.stig_rule_SV-270714r1208699_rule
     title: Ubuntu 24.04 LTS must not allow accounts configured in Pluggable Authentication
       Modules (PAM) with blank or null passwords.
     description: If an account has an empty password, anyone could log on and run
@@ -4573,7 +4599,7 @@ ce:
       fixtext: |-
         If an account is configured for password authentication but does not have an assigned password, it is possible to log on to the account without authenticating.
 
-        Remove any instances of the "nullok" option in "/etc/pam.d/common-password" to prevent logons with empty passwords.
+        Remove any instances of the "nullok" option in "/etc/pam.d/common-password" and "/etc/pam.d/common-auth" to prevent logons with empty passwords.
     confine:
       os.release.major:
       - '24.04'
@@ -4583,7 +4609,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270715: true
+      disa:Ubuntu24.04:v001.006:V-270715: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4623,7 +4649,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00228: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270716: true
+      disa:Ubuntu24.04:v001.006:V-270716: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4658,7 +4684,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00229: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270717: true
+      disa:Ubuntu24.04:v001.006:V-270717: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -4674,7 +4700,7 @@ ce:
       nist_800_53:rev5:
       - cm-6_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270717r1067177_rule
+    - xccdf_mil.disa.stig_rule_SV-270717r1208700_rule
     title: Ubuntu 24.04 LTS must not allow unattended or automatic login via SSH.
     description: Failure to restrict system access to authenticated users negatively
       impacts Ubuntu 24.04 LTS security.
@@ -4682,8 +4708,8 @@ ce:
       fixtext: "Configure Ubuntu 24.04 LTS to allow the SSH daemon to not allow unattended
         or automatic login to the system. \n \nAdd or edit the following lines in
         the \"/etc/ssh/sshd_config\" file: \n \nPermitEmptyPasswords no \nPermitUserEnvironment
-        no \n \nRestart the SSH daemon for the changes to take effect: \n \n$ sudo
-        systemctl restart sshd.service"
+        no \n \nRestart SSH for the changes to take effect: \n\n$ sudo systemctl restart
+        ssh"
     confine:
       os.release.major:
       - '24.04'
@@ -4693,7 +4719,7 @@ ce:
     controls:
       SRG-OS-000690-GPOS-00140: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270718: true
+      disa:Ubuntu24.04:v001.006:V-270718: true
       cci:CCI-003959: true
       CM-7(9): true
       cci:CCI-001958: true
@@ -4739,7 +4765,7 @@ ce:
     controls:
       SRG-OS-000104-GPOS-00051: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270720: true
+      disa:Ubuntu24.04:v001.006:V-270720: true
       cci:CCI-000764: true
       IA-2: true
       cci:CCI-000804: true
@@ -4790,7 +4816,7 @@ ce:
     controls:
       SRG-OS-000105-GPOS-00052: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270721: true
+      disa:Ubuntu24.04:v001.006:V-270721: true
       cci:CCI-000765: true
       IA-2(1): true
       cci:CCI-000766: true
@@ -4814,7 +4840,7 @@ ce:
       - ia-2.1
       - ia-2.2
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270721r1066652_rule
+    - xccdf_mil.disa.stig_rule_SV-270721r1261532_rule
     title: Ubuntu 24.04 LTS must implement smart card logins for multifactor authentication
       for local and network access to privileged and nonprivileged accounts.
     description: "Without the use of multifactor authentication, the ease of access
@@ -4826,8 +4852,8 @@ ce:
       system account with authorizations of a privileged user. \n \nNetwork access
       is defined as access to an information system by a user (or a process acting
       on behalf of a user) communicating through a network (e.g., local area network,
-      wide area network, or the internet). \n \nThe DOD common access card (CAC) with
-      DOD-approved PKI is an example of multifactor authentication.\n\nSatisfies:
+      wide area network, or the internet). \n \nThe DoW common access card (CAC) with
+      DoW-approved PKI is an example of multifactor authentication.\n\nSatisfies:
       SRG-OS-000105-GPOS-00052, SRG-OS-000107-GPOS-00054, SRG-OS-000106-GPOS-00053,
       SRG-OS-000108-GPOS-00055"
     imported_data:
@@ -4843,7 +4869,7 @@ ce:
     controls:
       SRG-OS-000105-GPOS-00052: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270722: true
+      disa:Ubuntu24.04:v001.006:V-270722: true
       cci:CCI-000765: true
       IA-2(1): true
       cci:CCI-000766: true
@@ -4867,7 +4893,7 @@ ce:
       - ia-2.1
       - ia-2.2
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270722r1067130_rule
+    - xccdf_mil.disa.stig_rule_SV-270722r1261533_rule
     title: Ubuntu 24.04 LTS must implement smart card logins for multifactor authentication
       for local and network access to privileged and nonprivileged accounts over SSH.
     description: "Without the use of multifactor authentication, the ease of access
@@ -4879,8 +4905,8 @@ ce:
       system account with authorizations of a privileged user. \n \nNetwork access
       is defined as access to an information system by a user (or a process acting
       on behalf of a user) communicating through a network (e.g., local area network,
-      wide area network, or the internet). \n \nThe DOD common access card (CAC) with
-      DOD-approved PKI is an example of multifactor authentication.\n\nSatisfies:
+      wide area network, or the internet). \n \nThe DoW common access card (CAC) with
+      DoW-approved PKI is an example of multifactor authentication.\n\nSatisfies:
       SRG-OS-000105-GPOS-00052, SRG-OS-000107-GPOS-00054, SRG-OS-000106-GPOS-00053,
       SRG-OS-000108-GPOS-00055"
     imported_data:
@@ -4896,7 +4922,7 @@ ce:
     controls:
       SRG-OS-000377-GPOS-00162: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270723: true
+      disa:Ubuntu24.04:v001.006:V-270723: true
       cci:CCI-001954: true
       IA-2(12): true
       NIST SP 800-53 Rev. 4 IA-2(12): true
@@ -4912,11 +4938,11 @@ ce:
       nist_800_53:rev5:
       - ia-2.12
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270723r1066658_rule
+    - xccdf_mil.disa.stig_rule_SV-270723r1261534_rule
     title: Ubuntu 24.04 LTS must electronically verify Personal Identity Verification
       (PIV) credentials.
     description: "The use of PIV credentials facilitates standardization and reduces
-      the risk of unauthorized access. \n \nDOD has mandated the use of the common
+      the risk of unauthorized access. \n \nDoW has mandated the use of the common
       access card (CAC) to support identity management and personal authentication
       for systems covered under Homeland Security Presidential Directive (HSPD) 12,
       as well as making the CAC a primary component of layered protection for national
@@ -4934,7 +4960,7 @@ ce:
     controls:
       SRG-OS-000109-GPOS-00056: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270724: true
+      disa:Ubuntu24.04:v001.006:V-270724: true
       cci:CCI-004045: true
       IA-2(5): true
       NIST SP 800-53 Rev. 5 IA-2(5): true
@@ -4979,7 +5005,7 @@ ce:
     controls:
       SRG-OS-000073-GPOS-00041: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270725: true
+      disa:Ubuntu24.04:v001.006:V-270725: true
       cci:CCI-004062: true
       IA-5(1): true
       NIST SP 800-53 Rev. 5 IA-5(1) (d): true
@@ -5015,7 +5041,7 @@ ce:
     controls:
       SRG-OS-000069-GPOS-00037: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270726: true
+      disa:Ubuntu24.04:v001.006:V-270726: true
       cci:CCI-004065: true
       IA-5(1): true
       cci:CCI-004066: true
@@ -5055,7 +5081,7 @@ ce:
     controls:
       SRG-OS-000070-GPOS-00038: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270727: true
+      disa:Ubuntu24.04:v001.006:V-270727: true
       cci:CCI-004065: true
       IA-5(1): true
       cci:CCI-004066: true
@@ -5095,7 +5121,7 @@ ce:
     controls:
       SRG-OS-000071-GPOS-00039: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270728: true
+      disa:Ubuntu24.04:v001.006:V-270728: true
       cci:CCI-004065: true
       IA-5(1): true
       cci:CCI-004066: true
@@ -5135,7 +5161,7 @@ ce:
     controls:
       SRG-OS-000072-GPOS-00040: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270729: true
+      disa:Ubuntu24.04:v001.006:V-270729: true
       cci:CCI-004065: true
       IA-5(1): true
       cci:CCI-004066: true
@@ -5178,7 +5204,7 @@ ce:
     controls:
       SRG-OS-000075-GPOS-00043: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270730: true
+      disa:Ubuntu24.04:v001.006:V-270730: true
       cci:CCI-004065: true
       IA-5(1): true
       cci:CCI-004066: true
@@ -5216,34 +5242,31 @@ ce:
     controls:
       SRG-OS-000076-GPOS-00044: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270731: true
-      cci:CCI-004065: true
-      IA-5(1): true
+      disa:Ubuntu24.04:v001.006:V-270731: true
       cci:CCI-004066: true
-      NIST SP 800-53 Rev. 5 IA-5(1) (g): true
+      IA-5(1): true
       NIST SP 800-53 Rev. 5 IA-5(1) (h): true
     identifiers:
       disa:
       - SRG-OS-000076-GPOS-00044
       - V-270731
       - IA-5(1)
-      - CCI-004065
       - CCI-004066
       nist_800_53:rev5:
-      - ia-5.1_smt.g
       - ia-5.1_smt.h
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270731r1066682_rule
-    title: Ubuntu 24.04 LTS must enforce a 60-day maximum password lifetime restriction.
-      Passwords for new users must have a 60-day maximum password lifetime restriction.
-    description: |-
-      Any password, no matter how complex, can eventually be cracked. Therefore, passwords need to be changed periodically. If Ubuntu 24.04 LTS does not limit the lifetime of passwords and force users to change their passwords, there is the risk that Ubuntu 24.04 LTS passwords could be compromised.
-
-      Satisfies: SRG-OS-000076-GPOS-00044, SRG-OS-000730-GPOS-00190
+    - xccdf_mil.disa.stig_rule_SV-270731r1261476_rule
+    title: Ubuntu 24.04 LTS must be able to enforce a 180-day maximum password lifetime
+      restriction.
+    description: Any password, no matter how complex, can eventually be cracked. Therefore,
+      passwords need to be changed periodically. If Ubuntu 24.04 LTS does not limit
+      the lifetime of passwords and force users to change their passwords, there is
+      the risk that Ubuntu 24.04 LTS passwords could be compromised.
     imported_data:
-      fixtext: "Configure Ubuntu 24.04 LTS to enforce a 60-day maximum password lifetime.
-        \n \nAdd or modify the following line in the \"/etc/login.defs\" file: \n
-        \nPASS_MAX_DAYS    60"
+      fixtext: |-
+        Configure Ubuntu 24.04 LTS to set noncompliant accounts to enforce a 180-day maximum password lifetime restriction.
+
+        $ sudo chage -M 180 [user]
     confine:
       os.release.major:
       - '24.04'
@@ -5253,7 +5276,7 @@ ce:
     controls:
       SRG-OS-000078-GPOS-00046: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270732: true
+      disa:Ubuntu24.04:v001.006:V-270732: true
       cci:CCI-004065: true
       IA-5(1): true
       cci:CCI-004066: true
@@ -5293,7 +5316,7 @@ ce:
     controls:
       SRG-OS-000266-GPOS-00101: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270733: true
+      disa:Ubuntu24.04:v001.006:V-270733: true
       cci:CCI-004065: true
       IA-5(1): true
       cci:CCI-004066: true
@@ -5335,7 +5358,7 @@ ce:
     controls:
       SRG-OS-000383-GPOS-00166: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270734: true
+      disa:Ubuntu24.04:v001.006:V-270734: true
       cci:CCI-002007: true
       IA-5(13): true
       NIST SP 800-53 Rev. 4 IA-5(13): true
@@ -5372,7 +5395,7 @@ ce:
     controls:
       SRG-OS-000068-GPOS-00036: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270736: true
+      disa:Ubuntu24.04:v001.006:V-270736: true
       cci:CCI-000187: true
       IA-5(2): true
       NIST SP 800-53 Rev. 4 IA-5(2) (c): true
@@ -5408,7 +5431,7 @@ ce:
     controls:
       SRG-OS-000066-GPOS-00034: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270737: true
+      disa:Ubuntu24.04:v001.006:V-270737: true
       cci:CCI-000185: true
       IA-5(2): true
       cci:CCI-004909: true
@@ -5469,7 +5492,7 @@ ce:
     controls:
       SRG-OS-000384-GPOS-00167: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270738: true
+      disa:Ubuntu24.04:v001.006:V-270738: true
       cci:CCI-004068: true
       IA-5(2): true
       NIST SP 800-53 Rev. 5 IA-5(2) (b) (2): true
@@ -5506,7 +5529,7 @@ ce:
     controls:
       SRG-OS-000120-GPOS-00061: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270739: true
+      disa:Ubuntu24.04:v001.006:V-270739: true
       cci:CCI-000803: true
       IA-7: true
       NIST SP 800-53 Rev. 4 IA-7: true
@@ -5541,7 +5564,7 @@ ce:
     controls:
       SRG-OS-000392-GPOS-00172: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270740: true
+      disa:Ubuntu24.04:v001.006:V-270740: true
       cci:CCI-002884: true
       MA-4(1): true
       cci:CCI-000172: true
@@ -5599,7 +5622,7 @@ ce:
     controls:
       SRG-OS-000125-GPOS-00065: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270741: true
+      disa:Ubuntu24.04:v001.006:V-270741: true
       cci:CCI-000877: true
       MA-4: true
       NIST SP 800-53 Rev. 4 MA-4 (c): true
@@ -5640,7 +5663,7 @@ ce:
     controls:
       SRG-OS-000163-GPOS-00072: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270742: true
+      disa:Ubuntu24.04:v001.006:V-270742: true
       cci:CCI-001133: true
       SC-10: true
       NIST SP 800-53 Rev. 4 SC-10: true
@@ -5689,7 +5712,7 @@ ce:
     controls:
       SRG-OS-000163-GPOS-00072: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270743: true
+      disa:Ubuntu24.04:v001.006:V-270743: true
       cci:CCI-001133: true
       SC-10: true
       NIST SP 800-53 Rev. 4 SC-10: true
@@ -5705,7 +5728,7 @@ ce:
       nist_800_53:rev5:
       - sc-10
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270743r1066718_rule
+    - xccdf_mil.disa.stig_rule_SV-270743r1208702_rule
     title: Ubuntu 24.04 LTS must immediately terminate all network connections associated
       with SSH traffic at the end of the session or after 10 minutes of inactivity.
     description: "Terminating an idle session within a short time period reduces the
@@ -5713,8 +5736,8 @@ ce:
       session enabled on the console or console port that has been left unattended.
       In addition, quickly terminating an idle session will also free up resources
       committed by the managed network element.  \n \nTerminating network connections
-      associated with communications sessions includes, for example, de-allocating
-      associated TCP/IP address/port pairs at Ubuntu 24.04 LTS level, and de-allocating
+      associated with communications sessions includes, for example, deallocating
+      associated TCP/IP address/port pairs at the Ubuntu 24.04 LTS level and deallocating
       networking assignments at the application level if multiple application sessions
       are using a single operating system-level network connection. This does not
       mean that Ubuntu 24.04 LTS terminates all sessions or network access; it only
@@ -5722,9 +5745,10 @@ ce:
     imported_data:
       fixtext: "Configure Ubuntu 24.04 LTS to automatically terminate all network
         connections associated with SSH traffic at the end of a session or after a
-        10-minute period of inactivity.\n\nIn the file /etc/ssh/sshd_config set ClientAliveInterval
-        to a value of \"600\" or less: \n\nClientAliveInterval 600\n\nRestart the
-        SSH daemon for the changes to take effect:\n\n$ sudo systemctl restart sshd.service"
+        10-minute period of inactivity.\n\nIn the file \"/etc/ssh/sshd_config\", set
+        \"ClientAliveInterval\" to a value of \"600\" or less: \n\nClientAliveInterval
+        600\n\nRestart SSH for the changes to take effect: \n\n$ sudo systemctl restart
+        ssh"
     confine:
       os.release.major:
       - '24.04'
@@ -5734,7 +5758,7 @@ ce:
     controls:
       SRG-OS-000478-GPOS-00223: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270744: true
+      disa:Ubuntu24.04:v001.006:V-270744: true
       cci:CCI-002450: true
       SC-13: true
       NIST SP 800-53 Rev. 4 SC-13: true
@@ -5779,7 +5803,7 @@ ce:
     controls:
       SRG-OS-000184-GPOS-00078: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270746: true
+      disa:Ubuntu24.04:v001.006:V-270746: true
       cci:CCI-001190: true
       SC-24: true
       NIST SP 800-53 Rev. 4 SC-24: true
@@ -5814,7 +5838,7 @@ ce:
     controls:
       SRG-OS-000138-GPOS-00069: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270749: true
+      disa:Ubuntu24.04:v001.006:V-270749: true
       cci:CCI-001090: true
       SC-4: true
       NIST SP 800-53 Rev. 4 SC-4: true
@@ -5853,7 +5877,7 @@ ce:
     controls:
       SRG-OS-000142-GPOS-00071: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270753: true
+      disa:Ubuntu24.04:v001.006:V-270753: true
       cci:CCI-001095: true
       SC-5(2): true
       NIST SP 800-53 Rev. 4 SC-5(2): true
@@ -5892,7 +5916,7 @@ ce:
     controls:
       SRG-OS-000205-GPOS-00083: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270756: true
+      disa:Ubuntu24.04:v001.006:V-270756: true
       cci:CCI-001312: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (a): true
@@ -5943,7 +5967,7 @@ ce:
     controls:
       SRG-OS-000205-GPOS-00083: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270757: true
+      disa:Ubuntu24.04:v001.006:V-270757: true
       cci:CCI-001312: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (a): true
@@ -5959,7 +5983,7 @@ ce:
       nist_800_53:rev5:
       - si-11_smt.a
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270757r1066760_rule
+    - xccdf_mil.disa.stig_rule_SV-270757r1261493_rule
     title: Ubuntu 24.04 LTS must generate system journal entries without revealing
       information that could be exploited by adversaries.
     description: "Any operating system providing too much information in error messages
@@ -5974,20 +5998,15 @@ ce:
       and personal information, such as account numbers, social security numbers,
       and credit card numbers."
     imported_data:
-      fixtext: |-
-        Configure the system to set the appropriate permissions to the files and directories used by the systemd journal:
-
-        $ sudo nano /usr/lib/tmpfiles.d/systemd.conf
-
-        Edit the following lines of the configuration file:
-
-        z /run/log/journal 2640 root systemd-journal - -
-        Z /run/log/journal/%m ~2640 root systemd-journal - -
-        z /var/log/journal 2640 root systemd-journal - -
-        z /var/log/journal/%m 2640 root systemd-journal - -
-        z /var/log/journal/%m/system.journal 0640 root systemd-journal - -
-
-        Note: The system must be restarted for these settings to take effect.
+      fixtext: "Configure the system to set the appropriate permissions to the files
+        and directories used by the systemd journal.\n\nCreate a drop-in file if it
+        does not already exist with the following command:\n\n$ sudo vi /etc/tmpfiles.d/zzz-systemd-stig.conf\n
+        \nAdd or modify the following lines in the \"/usr/lib/tmpfiles.d/zzz-systemd-stig.conf\"
+        file: \n\nz /run/log/journal 2755 root systemd-journal - -\nZ /run/log/journal/%m
+        ~2750 root systemd-journal - -\nz /var/log/journal 2755 root systemd-journal
+        - -\nz /var/log/journal/%m 2755 root systemd-journal - -\nz /var/log/journal/%m/system.journal
+        0640 root systemd-journal - -\n\nNote: Restart the system for these settings
+        to take effect."
     confine:
       os.release.major:
       - '24.04'
@@ -5997,7 +6016,7 @@ ce:
     controls:
       SRG-OS-000205-GPOS-00083: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270758: true
+      disa:Ubuntu24.04:v001.006:V-270758: true
       cci:CCI-001312: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (a): true
@@ -6041,7 +6060,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270759: true
+      disa:Ubuntu24.04:v001.006:V-270759: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6083,7 +6102,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270760: true
+      disa:Ubuntu24.04:v001.006:V-270760: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6125,7 +6144,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270761: true
+      disa:Ubuntu24.04:v001.006:V-270761: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6141,7 +6160,7 @@ ce:
       nist_800_53:rev5:
       - si-11_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270761r1067180_rule
+    - xccdf_mil.disa.stig_rule_SV-270761r1261495_rule
     title: Ubuntu 24.04 LTS must configure the directories used by the system journal
       to be group-owned by "systemd-journal".
     description: "Only authorized personnel are to be made aware of errors and the
@@ -6154,17 +6173,15 @@ ce:
       information system is able to identify and handle error conditions is guided
       by organizational policy and operational requirements."
     imported_data:
-      fixtext: |-
-        Configure the system to set the appropriate group-ownership to the directories used by the systemd journal:
-
-        $ sudo nano /usr/lib/tmpfiles.d/systemd.conf
-
-        Edit the following lines of the configuration file:
-
-        z /run/log/journal 2640 root systemd-journal - -
-        z /var/log/journal 2640 root systemd-journal - -
-
-        Note: The system must be restarted for these settings to take effect.
+      fixtext: "Configure the system to set the appropriate group-ownership to the
+        directories used by the systemd journal.\n\nCreate a drop-in file if it does
+        not already exist with the following command:\n\n$ sudo vi /etc/tmpfiles.d/zzz-systemd-stig.conf\n
+        \nAdd or modify the following lines in the \"/usr/lib/tmpfiles.d/zzz-systemd-stig.conf\"
+        file: \n\nz /run/log/journal 2755 root systemd-journal - -\nZ /run/log/journal/%m
+        ~2750 root systemd-journal - -\nz /var/log/journal 2755 root systemd-journal
+        - -\nz /var/log/journal/%m 2755 root systemd-journal - -\nz /var/log/journal/%m/system.journal
+        0640 root systemd-journal - -\n\nNote: Restart the system for these settings
+        to take effect."
     confine:
       os.release.major:
       - '24.04'
@@ -6174,7 +6191,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270762: true
+      disa:Ubuntu24.04:v001.006:V-270762: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6190,7 +6207,7 @@ ce:
       nist_800_53:rev5:
       - si-11_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270762r1066775_rule
+    - xccdf_mil.disa.stig_rule_SV-270762r1184076_rule
     title: Ubuntu 24.04 LTS must configure the files used by the system journal to
       be group-owned by "systemd-journal".
     description: "Only authorized personnel are to be made aware of errors and the
@@ -6203,14 +6220,14 @@ ce:
       information system is able to identify and handle error conditions is guided
       by organizational policy and operational requirements."
     imported_data:
-      fixtext: |-
-        Configure the system to set the appropriate group-ownership to the files used by the systemd journal:
-
-        Z /run/log/journal/%m ~2640 root systemd-journal - -
-        z /var/log/journal/%m 2640 root systemd-journal - -
-        z /var/log/journal/%m/system.journal 0640 root systemd-journal - -
-
-        Note: The system must be restarted for these settings to take effect.
+      fixtext: "Configure the system to set the appropriate group-ownership to the
+        files used by the systemd journal.\n\nCreate a drop-in file if it does not
+        already exist with the following command:\n\n$ sudo vi /etc/tmpfiles.d/zzz-systemd-stig.conf\n
+        \nAdd or modify the following lines in the \"/usr/lib/tmpfiles.d/zzz-systemd-stig.conf\"
+        file: \n\nZ /run/log/journal/%m ~0640 root systemd-journal - -\nz /var/log/journal/%m
+        0640 root systemd-journal - -\nz /var/log/journal/%m/system.journal 0640 root
+        systemd-journal - -\n\nNote: Restart the system for these settings to take
+        effect."
     confine:
       os.release.major:
       - '24.04'
@@ -6220,7 +6237,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270763: true
+      disa:Ubuntu24.04:v001.006:V-270763: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6236,7 +6253,7 @@ ce:
       nist_800_53:rev5:
       - si-11_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270763r1066778_rule
+    - xccdf_mil.disa.stig_rule_SV-270763r1261497_rule
     title: Ubuntu 24.04 LTS must configure the directories used by the system journal
       to be owned by "root".
     description: "Only authorized personnel are to be made aware of errors and the
@@ -6249,17 +6266,15 @@ ce:
       information system is able to identify and handle error conditions is guided
       by organizational policy and operational requirements."
     imported_data:
-      fixtext: |-
-        Configure the system to set the appropriate ownership to the directories used by the systemd journal:
-
-        $ sudo nano /usr/lib/tmpfiles.d/systemd.conf
-
-        Edit the following lines of the configuration file:
-
-        z /run/log/journal 2640 root systemd-journal - -
-        z /var/log/journal 2640 root systemd-journal - -
-
-        Note: The system must be restarted for these settings to take effect.
+      fixtext: "Configure the system to set the appropriate ownership to the directories
+        used by the systemd journal.\n\nCreate a drop-in file if it does not already
+        exist with the following command:\n\n$ sudo vi /etc/tmpfiles.d/zzz-systemd-stig.conf\n
+        \nAdd or modify the following lines in the \"/usr/lib/tmpfiles.d/zzz-systemd-stig.conf\"
+        file: \n\nz /run/log/journal 2755 root systemd-journal - -\nZ /run/log/journal/%m
+        ~2750 root systemd-journal - -\nz /var/log/journal 2755 root systemd-journal
+        - -\nz /var/log/journal/%m 2755 root systemd-journal - -\nz /var/log/journal/%m/system.journal
+        0640 root systemd-journal - -\n\nNote: Restart the system for these settings
+        to take effect."
     confine:
       os.release.major:
       - '24.04'
@@ -6269,7 +6284,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270764: true
+      disa:Ubuntu24.04:v001.006:V-270764: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6285,7 +6300,7 @@ ce:
       nist_800_53:rev5:
       - si-11_smt.b
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270764r1066781_rule
+    - xccdf_mil.disa.stig_rule_SV-270764r1261499_rule
     title: Ubuntu 24.04 LTS must configure the files used by the system journal to
       be owned by "root"
     description: "Only authorized personnel are to be made aware of errors and the
@@ -6298,18 +6313,15 @@ ce:
       information system is able to identify and handle error conditions is guided
       by organizational policy and operational requirements."
     imported_data:
-      fixtext: |-
-        Configure the system to set the appropriate ownership to the files used by the systemd journal:
-
-        $ sudo nano /usr/lib/tmpfiles.d/systemd.conf
-
-        Edit the following lines of the configuration file:
-
-        Z /run/log/journal/%m ~2640 root systemd-journal - -
-        z /var/log/journal/%m 2640 root systemd-journal - -
-        z /var/log/journal/%m/system.journal 0640 root systemd-journal - -
-
-        Note: The system must be restarted for these settings to take effect.
+      fixtext: "Configure the system to set the appropriate ownership to the files
+        used by the systemd journal.\n\nCreate a drop-in file if it does not already
+        exist with the following command:\n\n$ sudo vi /etc/tmpfiles.d/zzz-systemd-stig.conf\n
+        \nAdd or modify the following lines in the \"/usr/lib/tmpfiles.d/zzz-systemd-stig.conf\"
+        file: \n\nz /run/log/journal 2755 root systemd-journal - -\nZ /run/log/journal/%m
+        ~2750 root systemd-journal - -\nz /var/log/journal 2755 root systemd-journal
+        - -\nz /var/log/journal/%m 2755 root systemd-journal - -\nz /var/log/journal/%m/system.journal
+        0640 root systemd-journal - -\n\nNote: Restart the system for these settings
+        to take effect."
     confine:
       os.release.major:
       - '24.04'
@@ -6319,7 +6331,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270765: true
+      disa:Ubuntu24.04:v001.006:V-270765: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6359,7 +6371,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270766: true
+      disa:Ubuntu24.04:v001.006:V-270766: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6398,7 +6410,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270767: true
+      disa:Ubuntu24.04:v001.006:V-270767: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6439,7 +6451,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270768: true
+      disa:Ubuntu24.04:v001.006:V-270768: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6479,7 +6491,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270769: true
+      disa:Ubuntu24.04:v001.006:V-270769: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6518,7 +6530,7 @@ ce:
     controls:
       SRG-OS-000206-GPOS-00084: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270770: true
+      disa:Ubuntu24.04:v001.006:V-270770: true
       cci:CCI-001314: true
       SI-11: true
       NIST SP 800-53 Rev. 4 SI-11 (b): true
@@ -6559,7 +6571,7 @@ ce:
     controls:
       SRG-OS-000433-GPOS-00193: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270772: true
+      disa:Ubuntu24.04:v001.006:V-270772: true
       cci:CCI-002824: true
       SI-16: true
       NIST SP 800-53 Rev. 4 SI-16: true
@@ -6601,7 +6613,7 @@ ce:
     controls:
       SRG-OS-000437-GPOS-00194: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270773: true
+      disa:Ubuntu24.04:v001.006:V-270773: true
       cci:CCI-002617: true
       SI-2(6): true
       NIST SP 800-53 Rev. 4 SI-2(6): true
@@ -6638,7 +6650,7 @@ ce:
     controls:
       SRG-OS-000063-GPOS-00032: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270775: true
+      disa:Ubuntu24.04:v001.006:V-270775: true
       cci:CCI-000171: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (b): true
@@ -6676,7 +6688,7 @@ ce:
     controls:
       SRG-OS-000063-GPOS-00032: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270776: true
+      disa:Ubuntu24.04:v001.006:V-270776: true
       cci:CCI-000171: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (b): true
@@ -6714,7 +6726,7 @@ ce:
     controls:
       SRG-OS-000063-GPOS-00032: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270777: true
+      disa:Ubuntu24.04:v001.006:V-270777: true
       cci:CCI-000171: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (b): true
@@ -6752,7 +6764,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270778: true
+      disa:Ubuntu24.04:v001.006:V-270778: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -6792,7 +6804,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270779: true
+      disa:Ubuntu24.04:v001.006:V-270779: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -6831,7 +6843,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270780: true
+      disa:Ubuntu24.04:v001.006:V-270780: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -6870,7 +6882,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270781: true
+      disa:Ubuntu24.04:v001.006:V-270781: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -6909,7 +6921,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270782: true
+      disa:Ubuntu24.04:v001.006:V-270782: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -6948,7 +6960,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270783: true
+      disa:Ubuntu24.04:v001.006:V-270783: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -6987,7 +6999,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270784: true
+      disa:Ubuntu24.04:v001.006:V-270784: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7038,7 +7050,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270785: true
+      disa:Ubuntu24.04:v001.006:V-270785: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7086,7 +7098,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270786: true
+      disa:Ubuntu24.04:v001.006:V-270786: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7134,7 +7146,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270787: true
+      disa:Ubuntu24.04:v001.006:V-270787: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7187,7 +7199,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270788: true
+      disa:Ubuntu24.04:v001.006:V-270788: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7226,7 +7238,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270789: true
+      disa:Ubuntu24.04:v001.006:V-270789: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7265,7 +7277,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270790: true
+      disa:Ubuntu24.04:v001.006:V-270790: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7304,7 +7316,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270791: true
+      disa:Ubuntu24.04:v001.006:V-270791: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7343,7 +7355,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270792: true
+      disa:Ubuntu24.04:v001.006:V-270792: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7382,7 +7394,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270793: true
+      disa:Ubuntu24.04:v001.006:V-270793: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7422,7 +7434,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270794: true
+      disa:Ubuntu24.04:v001.006:V-270794: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7461,7 +7473,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270795: true
+      disa:Ubuntu24.04:v001.006:V-270795: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7500,7 +7512,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270796: true
+      disa:Ubuntu24.04:v001.006:V-270796: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7540,7 +7552,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270797: true
+      disa:Ubuntu24.04:v001.006:V-270797: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7580,7 +7592,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270798: true
+      disa:Ubuntu24.04:v001.006:V-270798: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7619,7 +7631,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270799: true
+      disa:Ubuntu24.04:v001.006:V-270799: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7658,7 +7670,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270800: true
+      disa:Ubuntu24.04:v001.006:V-270800: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7697,7 +7709,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270801: true
+      disa:Ubuntu24.04:v001.006:V-270801: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7736,7 +7748,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270802: true
+      disa:Ubuntu24.04:v001.006:V-270802: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7775,7 +7787,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270803: true
+      disa:Ubuntu24.04:v001.006:V-270803: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7814,7 +7826,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270804: true
+      disa:Ubuntu24.04:v001.006:V-270804: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7854,7 +7866,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270805: true
+      disa:Ubuntu24.04:v001.006:V-270805: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7902,7 +7914,7 @@ ce:
     controls:
       SRG-OS-000064-GPOS-00033: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270806: true
+      disa:Ubuntu24.04:v001.006:V-270806: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7945,7 +7957,7 @@ ce:
     controls:
       SRG-OS-000466-GPOS-00210: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270807: true
+      disa:Ubuntu24.04:v001.006:V-270807: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -7982,7 +7994,7 @@ ce:
     controls:
       SRG-OS-000466-GPOS-00210: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270808: true
+      disa:Ubuntu24.04:v001.006:V-270808: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -8020,7 +8032,7 @@ ce:
     controls:
       SRG-OS-000468-GPOS-00212: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270809: true
+      disa:Ubuntu24.04:v001.006:V-270809: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -8067,7 +8079,7 @@ ce:
     controls:
       SRG-OS-000472-GPOS-00217: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270810: true
+      disa:Ubuntu24.04:v001.006:V-270810: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -8105,7 +8117,7 @@ ce:
     controls:
       SRG-OS-000472-GPOS-00217: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270811: true
+      disa:Ubuntu24.04:v001.006:V-270811: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -8143,7 +8155,7 @@ ce:
     controls:
       SRG-OS-000472-GPOS-00217: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270812: true
+      disa:Ubuntu24.04:v001.006:V-270812: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -8181,7 +8193,7 @@ ce:
     controls:
       SRG-OS-000477-GPOS-00222: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270813: true
+      disa:Ubuntu24.04:v001.006:V-270813: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -8219,7 +8231,7 @@ ce:
     controls:
       SRG-OS-000477-GPOS-00222: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270814: true
+      disa:Ubuntu24.04:v001.006:V-270814: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -8257,7 +8269,7 @@ ce:
     controls:
       SRG-OS-000477-GPOS-00222: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270815: true
+      disa:Ubuntu24.04:v001.006:V-270815: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -8296,7 +8308,7 @@ ce:
     controls:
       SRG-OS-000359-GPOS-00146: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270820: true
+      disa:Ubuntu24.04:v001.006:V-270820: true
       cci:CCI-001890: true
       AU-8: true
       NIST SP 800-53 Rev. 4 AU-8 (b): true
@@ -8333,7 +8345,7 @@ ce:
     controls:
       SRG-OS-000257-GPOS-00098: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270821: true
+      disa:Ubuntu24.04:v001.006:V-270821: true
       cci:CCI-001494: true
       AU-9: true
       cci:CCI-001493: true
@@ -8378,7 +8390,7 @@ ce:
     controls:
       SRG-OS-000257-GPOS-00098: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270822: true
+      disa:Ubuntu24.04:v001.006:V-270822: true
       cci:CCI-001494: true
       AU-9: true
       cci:CCI-001493: true
@@ -8422,7 +8434,7 @@ ce:
     controls:
       SRG-OS-000257-GPOS-00098: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270823: true
+      disa:Ubuntu24.04:v001.006:V-270823: true
       cci:CCI-001494: true
       AU-9: true
       cci:CCI-001493: true
@@ -8466,7 +8478,7 @@ ce:
     controls:
       SRG-OS-000258-GPOS-00099: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270824: true
+      disa:Ubuntu24.04:v001.006:V-270824: true
       cci:CCI-001495: true
       AU-9: true
       NIST SP 800-53 Rev. 4 AU-9: true
@@ -8509,7 +8521,7 @@ ce:
     controls:
       SRG-OS-000258-GPOS-00099: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270825: true
+      disa:Ubuntu24.04:v001.006:V-270825: true
       cci:CCI-001495: true
       AU-9: true
       NIST SP 800-53 Rev. 4 AU-9: true
@@ -8552,7 +8564,7 @@ ce:
     controls:
       SRG-OS-000258-GPOS-00099: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270826: true
+      disa:Ubuntu24.04:v001.006:V-270826: true
       cci:CCI-001495: true
       AU-9: true
       NIST SP 800-53 Rev. 4 AU-9: true
@@ -8595,7 +8607,7 @@ ce:
     controls:
       SRG-OS-000057-GPOS-00027: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270827: true
+      disa:Ubuntu24.04:v001.006:V-270827: true
       cci:CCI-000162: true
       AU-9: true
       cci:CCI-000163: true
@@ -8637,7 +8649,7 @@ ce:
     controls:
       SRG-OS-000057-GPOS-00027: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270828: true
+      disa:Ubuntu24.04:v001.006:V-270828: true
       cci:CCI-000162: true
       AU-9: true
       cci:CCI-000163: true
@@ -8681,7 +8693,7 @@ ce:
     controls:
       SRG-OS-000057-GPOS-00027: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270829: true
+      disa:Ubuntu24.04:v001.006:V-270829: true
       cci:CCI-000162: true
       AU-9: true
       cci:CCI-000163: true
@@ -8730,7 +8742,7 @@ ce:
     controls:
       SRG-OS-000059-GPOS-00029: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270830: true
+      disa:Ubuntu24.04:v001.006:V-270830: true
       cci:CCI-000164: true
       AU-9: true
       NIST SP 800-53 Rev. 4 AU-9: true
@@ -8774,7 +8786,7 @@ ce:
     controls:
       SRG-OS-000278-GPOS-00108: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270831: true
+      disa:Ubuntu24.04:v001.006:V-270831: true
       cci:CCI-001496: true
       AU-9(3): true
       NIST SP 800-53 Rev. 4 AU-9(3): true
@@ -8790,7 +8802,7 @@ ce:
       nist_800_53:rev5:
       - au-9.3
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270831r1135002_rule
+    - xccdf_mil.disa.stig_rule_SV-270831r1261485_rule
     title: Ubuntu 24.04 LTS must use cryptographic mechanisms to protect the integrity
       of audit tools.
     description: "Protecting the integrity of the tools used for auditing purposes
@@ -8807,11 +8819,42 @@ ce:
       when the audit tools have been modified, manipulated, or replaced. An example
       is a checksum hash of the file or files."
     imported_data:
-      fixtext: "Add or update the following selection lines for \"/etc/aide/aide.conf\"
-        to protect the integrity of the audit tools: \n \n# Audit Tools \n/sbin/auditctl
-        p+i+n+u+g+s+b+acl+xattrs+sha512 \n/sbin/auditd p+i+n+u+g+s+b+acl+xattrs+sha512
-        \n/sbin/ausearch p+i+n+u+g+s+b+acl+xattrs+sha512 \n/sbin/aureport p+i+n+u+g+s+b+acl+xattrs+sha512
-        \n/sbin/autrace p+i+n+u+g+s+b+acl+xattrs+sha512 \n/sbin/augenrules p+i+n+u+g+s+b+acl+xattrs+sha512"
+      fixtext: |-
+        Configure AIDE to protect the integrity of the audit tools by performing the following steps:
+
+        Create a dedicated configuration file inside AIDE's sub-configuration directory:
+        $ sudo nano /etc/aide/aide.conf.d/90-stig_audit_tools
+
+        Add configuration rules:
+
+        # Modern Canonical Paths
+        /usr/sbin/auditctl p+i+n+u+g+s+b+acl+xattrs+sha512
+        /usr/sbin/auditd p+i+n+u+g+s+b+acl+xattrs+sha512
+        /usr/sbin/ausearch p+i+n+u+g+s+b+acl+xattrs+sha512
+        /usr/sbin/aureport p+i+n+u+g+s+b+acl+xattrs+sha512
+        /usr/sbin/autrace p+i+n+u+g+s+b+acl+xattrs+sha512
+        /usr/sbin/augenrules p+i+n+u+g+s+b+acl+xattrs+sha512
+
+        # Legacy Paths
+        /sbin/auditctl p+i+n+u+g+s+b+acl+xattrs+sha512
+        /sbin/auditd p+i+n+u+g+s+b+acl+xattrs+sha512
+        /sbin/ausearch p+i+n+u+g+s+b+acl+xattrs+sha512
+        /sbin/aureport p+i+n+u+g+s+b+acl+xattrs+sha512
+        /sbin/autrace p+i+n+u+g+s+b+acl+xattrs+sha512
+        /sbin/augenrules p+i+n+u+g+s+b+acl+xattrs+sha512
+
+        If the legacy "/sbin/" paths are defined inside the main "/etc/aide/aide.conf" file, edit "/etc/aide/aide.conf" and comment those lines out using a "#" to prevent duplicate definition conflicts.
+
+        Validate the modified AIDE configuration to ensure no syntax warnings or errors are present:
+        $ sudo aide -c /etc/aide/aide.conf --config-check
+
+        This command should return no output.
+
+        Initialize the updated baseline database (this may take a few minutes):
+        $ sudo aideinit
+
+        Copy the newly generated database into the production directory:
+        $ sudo cp -p /var/lib/aide/aide.db.new /var/lib/aide/aide.db
     confine:
       os.release.major:
       - '24.04'
@@ -8821,7 +8864,7 @@ ce:
     controls:
       SRG-OS-000058-GPOS-00028: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-270832: true
+      disa:Ubuntu24.04:v001.006:V-270832: true
       cci:CCI-000163: true
       AU-9: true
       NIST SP 800-53 Rev. 4 AU-9: true
@@ -8837,7 +8880,7 @@ ce:
       nist_800_53:rev5:
       - au-9_smt.a
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-270832r1068399_rule
+    - xccdf_mil.disa.stig_rule_SV-270832r1261488_rule
     title: Ubuntu 24.04 LTS audit system must protect auditing rules from unauthorized
       change.
     description: Unauthorized disclosure of audit records can reveal system and configuration
@@ -8850,9 +8893,17 @@ ce:
       changes.
     imported_data:
       fixtext: |-
-        Configure the audit system to set the audit rules to be immutable by adding the following line to the end of "/etc/audit/rules.d/audit.rules":
+        Configure the audit system to set the audit rules to be immutable by performing the following steps:
+
+        Create or edit a finalized rules file (e.g., "/etc/audit/rules.d/99-finalize.rules") and append the following option as the absolute last line:
 
         -e 2
+
+        Compile and load the new rules into the active kernel:
+
+        $ sudo augenrules --load
+
+        Note: Once this rule is active, further changes to the audit configuration will be blocked. A system reboot will be required to apply any future audit rule modifications.
     confine:
       os.release.major:
       - '24.04'
@@ -8862,7 +8913,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-274868: true
+      disa:Ubuntu24.04:v001.006:V-274868: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -8903,7 +8954,7 @@ ce:
     controls:
       SRG-OS-000373-GPOS-00156: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-274869: true
+      disa:Ubuntu24.04:v001.006:V-274869: true
       cci:CCI-002038: true
       IA-11: true
       cci:CCI-004895: true
@@ -8946,7 +8997,7 @@ ce:
     controls:
       SRG-OS-000471-GPOS-00215: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-274870: true
+      disa:Ubuntu24.04:v001.006:V-274870: true
       cci:CCI-000172: true
       AU-12: true
       NIST SP 800-53 Rev. 4 AU-12 (c): true
@@ -8962,7 +9013,7 @@ ce:
       nist_800_53:rev5:
       - au-12_smt.c
     oval-ids:
-    - xccdf_mil.disa.stig_rule_SV-274870r1155243_rule
+    - xccdf_mil.disa.stig_rule_SV-274870r1261490_rule
     title: Ubuntu 24.04 LTS must audit any script or executable called by cron as
       root or by any privileged user.
     description: Any script or executable called by cron as root or by any privileged
@@ -8973,7 +9024,7 @@ ce:
       fixtext: |-
         Configure Ubuntu 24.04 LTS to audit the execution of any system call made by cron as root or as any privileged user.
 
-        Add or update the following file system rules to "/etc/audit/rules.d/audit.rules":
+        Add or update the following file system rules to "/etc/audit/rules.d/stig.rules":
         -w /etc/cron.d/ -p wa -k cronjobs
         -w /var/spool/cron/ -p wa -k cronjobs
 
@@ -8989,7 +9040,7 @@ ce:
     controls:
       SRG-OS-000480-GPOS-00227: true
       disa_cpe:Ubuntu24.04: true
-      disa:Ubuntu24.04:v001.003:V-278917: true
+      disa:Ubuntu24.04:v001.006:V-278917: true
       cci:CCI-000366: true
       CM-6: true
       NIST SP 800-53 Rev. 4 CM-6 (b): true
@@ -9016,6 +9067,134 @@ ce:
       is available via an Ubuntu Pro subscription."
     imported_data:
       fixtext: Upgrade to a supported version of Ubuntu 24.04 LTS.
+    confine:
+      os.release.major:
+      - '24.04'
+      os.name:
+      - Ubuntu
+  disa:Ubuntu24.04:V-279938:
+    controls:
+      SRG-OS-000095-GPOS-00049: true
+      disa_cpe:Ubuntu24.04: true
+      disa:Ubuntu24.04:v001.006:V-279938: true
+      cci:CCI-000381: true
+      CM-7: true
+      NIST SP 800-53 Rev. 4 CM-7 (a): true
+      NIST SP 800-53 Rev. 5 CM-7 (a): true
+    identifiers:
+      disa:
+      - SRG-OS-000095-GPOS-00049
+      - V-279938
+      - CM-7
+      - CCI-000381
+      nist_800_53:rev4:
+      - cm-7_smt.a
+      nist_800_53:rev5:
+      - cm-7_smt.a
+    oval-ids:
+    - xccdf_mil.disa.stig_rule_SV-279938r1261502_rule
+    title: Ubuntu 24.04 LTS must not have the nfs-kernel-server package installed.
+    description: "It is detrimental for operating systems to provide, or install by
+      default, functionality exceeding requirements or mission objectives. These unnecessary
+      capabilities or services are often overlooked and therefore may remain unsecured.
+      They increase the risk to the platform by providing additional attack vectors.
+      \n \nOperating systems are capable of providing a wide variety of functions
+      and services. Some of the functions and services, provided by default, may not
+      be necessary to support essential organizational operations (e.g., key missions,
+      functions). \n \nExamples of nonessential capabilities include, but are not
+      limited to, games, software packages, tools, and demonstration software, not
+      related to requirements or providing a wide array of functionality not required
+      for every mission, but which cannot be disabled."
+    imported_data:
+      fixtext: |-
+        Configure the Ubuntu 24.04 LTS operating system to disable nonessential capabilities by removing the nfs-kernel-server package from the system with the following commands:
+
+        Remove packages if present:
+        $ sudo apt purge --yes nfs-kernel-server
+
+        Remove any unneeded dependencies:
+        $ sudo apt autoremove --yes
+
+        Verify that NFS services are gone:
+        $ sudo systemctl list-units --type=service | grep nfs
+    confine:
+      os.release.major:
+      - '24.04'
+      os.name:
+      - Ubuntu
+  disa:Ubuntu24.04:V-288818:
+    controls:
+      SRG-OS-000064-GPOS-00033: true
+      disa_cpe:Ubuntu24.04: true
+      disa:Ubuntu24.04:v001.006:V-288818: true
+      cci:CCI-000172: true
+      AU-12: true
+      NIST SP 800-53 Rev. 4 AU-12 (c): true
+      NIST SP 800-53 Rev. 5 AU-12 (c): true
+    identifiers:
+      disa:
+      - SRG-OS-000064-GPOS-00033
+      - V-288818
+      - AU-12
+      - CCI-000172
+      nist_800_53:rev4:
+      - au-12_smt.c
+      nist_800_53:rev5:
+      - au-12_smt.c
+    oval-ids:
+    - xccdf_mil.disa.stig_rule_SV-288818r1261479_rule
+    title: Ubuntu 24.04 LTS must generate audit records for successful/unsuccessful
+      uses of the useradd command.
+    description: "Without generating audit records specific to the security and mission
+      needs of the organization, it would be difficult to establish, correlate, and
+      investigate the events relating to an incident or identify those responsible
+      for one. \n \nAudit records can be generated from various components within
+      the information system (e.g., module or policy filter)."
+    imported_data:
+      fixtext: "Configure the audit system to generate an audit event for any successful/unsuccessful
+        uses of the \"useradd\" command.  \n \nAdd or update the following rules in
+        the \"/etc/audit/rules.d/stig.rules\" file: \n \n-a always,exit -F path=/usr/sbin/useradd
+        -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-useradd \n   \nTo reload
+        the rules file, issue the following command: \n \n$ sudo augenrules --load"
+    confine:
+      os.release.major:
+      - '24.04'
+      os.name:
+      - Ubuntu
+  disa:Ubuntu24.04:V-288819:
+    controls:
+      SRG-OS-000445-GPOS-00199: true
+      disa_cpe:Ubuntu24.04: true
+      disa:Ubuntu24.04:v001.006:V-288819: true
+      cci:CCI-002696: true
+      SI-6: true
+      NIST SP 800-53 Rev. 4 SI-6 (a): true
+      NIST SP 800-53 Rev. 5 SI-6 (a): true
+    identifiers:
+      disa:
+      - SRG-OS-000445-GPOS-00199
+      - V-288819
+      - SI-6
+      - CCI-002696
+      nist_800_53:rev4:
+      - si-6_smt.a
+      nist_800_53:rev5:
+      - si-6_smt.a
+    oval-ids:
+    - xccdf_mil.disa.stig_rule_SV-288819r1261505_rule
+    title: Ubuntu 24.04 LTS must not assign an interactive login shell for system
+      accounts.
+    description: Ensuring shells are not given to system accounts upon login makes
+      it more difficult for attackers to use system accounts.
+    imported_data:
+      fixtext: |-
+        Configure Ubuntu 24.04 LTS so that all noninteractive accounts on the system do not have an interactive shell assigned to them.
+
+        If the system account needs a shell assigned for mission operations, document the need with the information system security officer (ISSO).
+
+        Run the following command to disable the interactive shell for a specific noninteractive user account:
+
+        $ sudo usermod -s /usr/sbin/nologin <user>
     confine:
       os.release.major:
       - '24.04'
