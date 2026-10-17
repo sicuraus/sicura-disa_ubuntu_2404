@@ -47,20 +47,33 @@ def deep_subset?(expected, actual)
   end
 end
 
+# Hash parameters may have keys merged in from other data, so only the
+# expected keys need to be present.
+RSpec::Matchers.define :match_parameter do |expected|
+  match { |actual| expected.is_a?(Hash) ? deep_subset?(expected, actual) : actual == expected }
+end
+
 RSpec.configure do |c|
   c.hiera_config = hiera_yaml
+end
+
+# Hiera keys whose values are class lists rather than class parameters
+def class_parameters
+  ['simp::classes', 'sicura::classes']
+end
+
+def required_classes(hiera)
+  knockout(class_parameters.map { |key| Array(hiera[key]) }.reduce(:|))
 end
 
 describe 'sicura', type: :class do # rubocop:disable RSpec/DescribeClass
   on_supported_os.each do |os, os_facts|
     context "on #{os}" do # rubocop:disable RSpec/ContextWording
-      compliance_data.facts = os_facts.dup.transform_keys(&:to_s)
       profiles.each_key do |profile|
         context "with compliance profile #{profile}" do
+          # Used only to decide which examples to generate.
           compliance_data.facts = os_facts.merge(test_profile: profile).transform_keys(&:to_s)
-          compliance_hiera = compliance_data.hiera([profile])
-          class_keys = ['simp::classes', 'sicura::classes']
-          classes = knockout(class_keys.map { |key| Array(compliance_hiera[key]) }.reduce(:|))
+          profile_hiera = compliance_data.hiera([profile])
 
           before do
             File.open(File.join(datadir, 'common.yaml'), 'w') do |fh|
@@ -82,26 +95,26 @@ describe 'sicura', type: :class do # rubocop:disable RSpec/DescribeClass
             MANIFEST
           end
 
+          let(:compliance_hiera) do
+            compliance_data.facts = facts.transform_keys(&:to_s)
+            compliance_data.hiera([profile])
+          end
+
           it { is_expected.to compile.with_all_deps }
 
           it 'has hiera data that loads classes' do
-            expect(classes).not_to be_empty
+            expect(required_classes(compliance_hiera)).not_to be_empty
           end
 
-          classes.each do |klass|
+          required_classes(profile_hiera).each do |klass|
             it { is_expected.to contain_class(klass) }
           end
 
-          compliance_hiera.except(*class_keys).each do |key, value|
-            classname, _, parameter = key.rpartition('::')
-
-            if value.is_a?(Hash)
-              # Hash parameters may have keys merged in from other data.
-              it "sets #{key}" do
-                expect(deep_subset?(value, catalogue.resource('Class', classname)&.[](parameter.to_sym))).to be(true)
-              end
-            else
-              it { is_expected.to contain_class(classname).with(parameter => value) }
+          profile_hiera.except(*class_parameters).each_key do |key|
+            it "sets #{key}" do
+              classname, _, parameter = key.rpartition('::')
+              actual = catalogue.resource('Class', classname)&.[](parameter.to_sym)
+              expect(actual).to match_parameter(compliance_hiera[key])
             end
           end
         end

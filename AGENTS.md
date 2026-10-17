@@ -17,9 +17,14 @@ bundle exec rake spec                          # unit tests
 bundle exec rake fixtures:clean                # remove spec/fixtures/modules
 
 # Acceptance tests (Vagrant + libvirt; see .github/workflows/ci.yml for the setfile CI uses)
-BEAKER_HYPERVISOR=vagrant_libvirt BEAKER_PUPPET_COLLECTION=openvox8 \
+BEAKER_HYPERVISOR=vagrant_libvirt BEAKER_PUPPET_COLLECTION=openvox9 \
   BEAKER_SETFILE='<setfile from ci.yml>' bundle exec rake beaker
 ```
+
+CI runs the static checks and unit tests on Ruby 3.2 with OpenVox 8 and on Ruby 4.0 with
+OpenVox 9 (the matrix comes from `metadata.json` via gha-puppet), and the acceptance tests
+against the `openvox9` collection. Without `OPENVOX_GEM_VERSION`, the Gemfile picks the
+OpenVox release that matches the running Ruby.
 
 ## Architecture
 
