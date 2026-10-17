@@ -38,8 +38,22 @@ describe 'sicura' do # rubocop:disable RSpec/DescribeClass
           create_remote_file(host, '/etc/puppetlabs/code/environments/production/data/common.yaml', hieradata)
         end
 
+        it 'requires classes' do
+          expect(compliance_data.hiera([profile])['sicura::classes']).not_to be_empty
+        end
+
         it_behaves_like 'an idempotent resource' do
           let(:manifest) { 'include sicura' }
+        end
+
+        # compliance_engine only logs an error for an unknown profile, so the
+        # catalog applies cleanly even when no compliance data is found.
+        it 'applies the classes the profile requires' do
+          classes = knockout(Array(compliance_data.hiera([profile])['sicura::classes']))
+          on(host, "puppet apply --write-catalog-summary -e 'include sicura'")
+          applied = on(host, 'cat "$(puppet config print classfile)"').stdout.split("\n")
+
+          expect(applied).to include(*classes)
         end
       end
     end
