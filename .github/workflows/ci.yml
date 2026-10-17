@@ -1,0 +1,77 @@
+---
+name: CI
+
+# yamllint disable-line rule:truthy
+on:
+  pull_request: {}
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.ref_name }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  puppet:
+    name: Puppet
+    uses: voxpupuli/gha-puppet/.github/workflows/basic.yml@v4
+
+  # voxpupuli/gha-puppet's beaker.yml generates the setfile from metadata.json
+  # with no way to override the Vagrant box, so run acceptance tests here
+  # instead. beaker-hostgenerator's default Ubuntu box (generic/ubuntu<release>)
+  # is unmaintained and missing for newer releases, and Canonical does not
+  # publish libvirt boxes, so use bento.
+  acceptance:
+    name: Acceptance - ${{ matrix.name }}
+    needs: puppet
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: OpenVox 8 - Ubuntu 24.04
+            collection: openvox8
+            setfile: 'ubuntu2404-64{hostname=ubuntu2404-64-openvox8.example.com,box=bento/ubuntu-24.04}'
+    env:
+      BUNDLE_WITHOUT: development:release
+      BEAKER_HYPERVISOR: vagrant_libvirt
+      BEAKER_PUPPET_COLLECTION: ${{ matrix.collection }}
+      BEAKER_SETFILE: ${{ matrix.setfile }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Disable AppArmor
+        run: |
+          # https://bugs.launchpad.net/ubuntu/+source/apparmor/+bug/2093797
+          sudo aa-teardown || true
+          sudo systemctl disable --now apparmor.service
+      - name: Set up libvirt for Vagrant
+        run: |
+          sudo add-apt-repository ppa:evgeni/vagrant
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends vagrant vagrant-libvirt libvirt-daemon-system libvirt-daemon qemu-system-x86 qemu-utils dnsmasq
+          sudo chmod 666 /var/run/libvirt/libvirt-sock
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@651ff0d62c5c79bed6d53ec518387aae20e72c1a # v1.329.0
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Run tests
+        run: bundle exec rake beaker
+
+  tests:
+    if: always()
+    needs:
+      - puppet
+      - acceptance
+    runs-on: ubuntu-24.04
+    name: Test suite
+    steps:
+      - name: Decide whether the needed jobs succeeded or failed
+        uses: re-actors/alls-green@release/v1
+        with:
+          jobs: ${{ toJSON(needs) }}
